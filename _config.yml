@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+title: T.S. Weatherby # the website title (if blank, full name will be used instead)
+first_name: Thomas
+middle_name: Sean
+last_name: Weatherby
+keywords: Physics Education, Testing, Educational Technology # add your own keywords or leave empty
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://TSWeatherby.github.io # the base hostname & protocol for your site
