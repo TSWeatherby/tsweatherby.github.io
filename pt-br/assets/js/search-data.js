@@ -1,7 +1,7 @@
 
 const currentUrl = window.location.href;
-const siteUrl = "https://george-gca.github.io"; 
-let updatedUrl = currentUrl.replace("https://george-gca.github.io/multi-language-al-folio", "");
+const siteUrl = "https://TSWeatherby.github.io"; 
+let updatedUrl = currentUrl.replace("https://TSWeatherby.github.io/multi-language-al-folio", "");
 if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
   const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
   updatedUrl = currentUrl.replace(otherSiteUrl + "/multi-language-al-folio", "");
