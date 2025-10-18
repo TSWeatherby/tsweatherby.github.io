@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://TSWeatherby.github.io/multi-language-al-folio/sitemap.xml
+Sitemap: https://TSWeatherby.github.io/sitemap.xml
