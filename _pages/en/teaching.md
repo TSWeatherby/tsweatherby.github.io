@@ -1,7 +1,7 @@
 ---
 page_id: teaching
 layout: page
-title: teaching
+title: Teaching
 permalink: /teaching/
 description: Courses, labs, and outreach activities.
 nav: true
