@@ -15,7 +15,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation menu",
     handler: () => {
       window.location.href = "/";
@@ -56,8 +56,8 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          title: "Teaching",
+          description: "Courses, labs, and outreach activities.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/teaching/";
@@ -450,7 +450,7 @@ ninja.data = [{
           title: 'The Godfather',
           description: "",
           section: "",handler: () => {
-              window.location.href = "/books/en-us/the_godfather/";
+              window.location.href = "/books/en/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -458,7 +458,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/en-us/announcement_2/";
+              window.location.href = "/news/en/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -481,45 +481,79 @@ ninja.data = [{
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/1_project/";
+              window.location.href = "/projects/en/1_project/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/2_project/";
+              window.location.href = "/projects/en/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/3_project/";
+              window.location.href = "/projects/en/3_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/4_project/";
+              window.location.href = "/projects/en/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/5_project/";
+              window.location.href = "/projects/en/5_project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/6_project/";
+              window.location.href = "/projects/en/6_project/";
+            },},{id: "teaching-project-7",
+          title: 'project 7',
+          description: "with background image",
+          section: "",handler: () => {
+              window.location.href = "/teaching/7_project/";
+            },},{id: "teaching-project-8",
+          title: 'project 8',
+          description: "an other project with a background image and giscus comments",
+          section: "",handler: () => {
+              window.location.href = "/teaching/8_project/";
+            },},{id: "teaching-project-9",
+          title: 'project 9',
+          description: "another project with an image 🎉",
+          section: "",handler: () => {
+              window.location.href = "/teaching/9_project/";
+            },},{id: "teaching-theoretical-physics-for-grammar-school-teachers-3",
+          title: 'Theoretical Physics for Grammar School Teachers 3',
+          description: "Companion workshop for the Theo 3 lecture cycle.",
+          section: "",handler: () => {
+              window.location.href = "/teaching/en/1_course/";
             },},{
         id: 'social-email',
         title: 'Send an email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%77%65%61%74%68%65%72%62%79@%70%68%79%73%69%6B.%75%6E%69-%66%72%61%6E%6B%66%75%72%74.%64%65", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/TSWeatherby", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-6819-1347", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Thomas-Weatherby/", "_blank");
         },
       },{
         id: 'social-rss',
@@ -533,28 +567,35 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=h21H-gYAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-semanticscholar',
+        title: 'Semantic Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://www.semanticscholar.org/author/2095863307", "_blank");
         },
       },{
-          id: 'lang-pt-br',
-          title: 'pt-br',
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/TSWeatherby", "_blank");
+        },
+      },{
+          id: 'lang-de',
+          title: 'de',
           section: 'Languages',
           handler: () => {
-            window.location.href = "/pt-br" + updatedUrl;
+            window.location.href = "/de" + updatedUrl;
           },
         },{
-          id: 'lang-fr-ca',
-          title: 'fr-ca',
+          id: 'lang-jp',
+          title: 'jp',
           section: 'Languages',
           handler: () => {
-            window.location.href = "/fr-ca" + updatedUrl;
+            window.location.href = "/jp" + updatedUrl;
           },
         },{
       id: 'light-theme',
