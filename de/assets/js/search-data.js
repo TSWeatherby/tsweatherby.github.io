@@ -50,7 +50,7 @@ ninja.data = [{
           },
         },{id: "nav-lehre",
           title: "Lehre",
-          description: "Unterrichtsmaterialien",
+          description: "Lehrmaterialien für verschiedene Kurse.",
           section: "Navigationsmenü",
           handler: () => {
             window.location.href = "/de/teaching/";
