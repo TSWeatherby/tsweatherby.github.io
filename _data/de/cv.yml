@@ -1,101 +1,145 @@
-- title: Informações Gerais
+- title: Allgemeine Informationen
   type: map
   contents:
-    - name: Nome Completo
-      value: Albert Einstein
-    - name: Data de Nascimento
-      value: 14 de março de 1879
-    - name: Idiomas
-      value: Inglês, Alemão
+    - name: Vollständiger Name
+      value: Thomas Sean Weatherby
+    - name: Sprachen
+      value: Englisch (Muttersprache), Deutsch (C1+), Japanisch (~JLPT N4), Französisch (Grundkenntnisse)
+    - name: E-Mail
+      value: weatherby@physik.uni-frankfurt.de
 
-- title: Educação
+
+- title: Ausbildung
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurique, Suíça
-      year: 1905
+    - title: Promotion in Naturphilosophie (Physikdidaktik)
+      institution: Goethe-Universität Frankfurt am Main
+      year: 2018 – 2025
       description:
-        - Descrição 1.
-        - Descrição 2.
-        - title: Descrição 3.
-          contents:
-            - Sub-descrição 1.
-            - Sub-descrição 2.
-    - title: Diploma de ensino federal
-      institution: Eidgenössische Technische Hochschule, Zurique, Suíça
-      year: 1900
+        - Fachbereich Physikdidaktik unter Prof. Dr. Thomas Wilhelm
+        - "Projekttitel: „Talking Circuits – Die Entwicklung und Evaluation einer digital unterstützten, sprechorientierten Methode zum Lehren und Lernen elektrischer Stromkreise in der Sekundarstufe I“"
+    - title: PGCE mit Post-16-Vertiefung (Physik)
+      institution: University of York, Vereinigtes Königreich
+      year: 2024 – 2025
+    - title: Master of Physics (Angewandte und Ingenieurphysik)
+      institution: Technische Universität München, Deutschland
+      year: 2016 – 2018
       description:
-        - Descrição 1.
-        - Descrição 2.
+        - "Masterarbeit an der LMU München: „Reaction Nanoscopy – Near-Field-Induced Dissociative Ionisation from Nanoparticles in Solution“ (Betreuer: Prof. Dr. M. Kling)"
+    - title: Bachelor of Physics
+      institution: University of Oxford, Vereinigtes Königreich
+      year: 2012 – 2015
+      description:
+        - "Tutor*innen: Prof. Dr. H. Kraus (Relativität und Teilchenphysik), Prof. Dr. M. Johnston (Atom-, Molekül-, Laser- und Festkörperphysik)"
+        - "Fachdidaktisches Projekt: „An Examination of Misconceptions Regarding Electrical Circuits with a Focus on Models of Current“ (Betreuer: Dr. J. Hillier)"
+        - "Physikalisches Projekt: „Pulse Width Characterisation at the Vulcan Laser Facility“ (Betreuer: Dr. A. Dyson)"
+    - title: A Levels (Physik, Mathematik, Chemie, Weitere Mathematik)
+      institution: Royal Grammar School, Worcester
+      year: 2010 – 2012
+    - title: GCSEs
+      institution: Royal Grammar School, Worcester
+      year: 2008 – 2010
 
-- title: Experiência
+- title: Berufserfahrung
   type: time_table
   contents:
-    - title: Professor de Física Teórica
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoktorand (Physikdidaktik)
+      institution: Goethe-Universität Frankfurt am Main
+      year: 2025 –
       description:
-        - Descrição 1.
-        - Descrição 2.
-        - title: Descrição 3.
-          contents:
-            - Sub-descrição 1.
-            - Sub-descrição 2.
-    - title: Professor Visitante
-      institution: California Institute of Technology, Pasadena, Califórnia, EUA
-      year: 1933
-      description:
-        - Descrição 1.
-        - Descrição 2.
+        - Forschung zu digitalem und kollaborativem Lernen in der Physikdidaktik
+        - Durchführung von Seminaren und Praktika in der Lehrerbildung
+    - title: Wissenschaftlicher Mitarbeiter (Physikdidaktik)
+      institution: Goethe-Universität Frankfurt am Main
+      year: 2018 – 2024
+    - title: E-Learning-Assistent
+      institution: Ludwig-Maximilians-Universität München
+      year: 2017 – 2018
+    - title: Werkstudent
+      institution: OHB Systems, Weßling
+      year: 2016 – 2017
+    - title: Bibliotheksassistent
+      institution: Technische Universität München
+      year: 2016
+    - title: Bibliotheksassistent
+      institution: Corpus Christi College, University of Oxford
+      year: 2014 – 2015
+    - title: Junior Consultant
+      institution: TNG Technology Consultants, München
+      year: Sommer 2014
+    - title: Projektleiter und Englischlehrer
+      institution: Hosei University Tokyo / University College Oxford Summer School
+      year: Sommer 2013
 
-    - title: Diretor
-      institution: Kaiser Wilhelm Institute for Physics, Berlim, Alemanha.
-      year: 1917-1933
-
-    - title: Professor de Física Teórica
-      institution: Karl-Ferdinand University, Praga, Tchecoslováquia
-      year: 1911 - 1917
-      description:
-
-    - title: Professor Associado de Física Teórica
-      institution: University of Zurich, Zurique, Suíça
-      year: 1909 - 1911
-
-- title: Projetos de Código Aberto
+- title: Lehre und Betreuung
   type: time_table
   contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023-atual
-      description: Uma variação do tema al-folio com suporte a múltiplos idiomas.
+    - title: Praktika in der Lehramtsausbildung
+      institution: Goethe-Universität Frankfurt am Main
+      year: 2018 – 2024
+      description:
+        - Mechanik und Thermodynamik
+        - Elektrizitätslehre und Magnetismus
+        - Optik
+    - title: Theoretische Physik für Gymnasiallehrkräfte
+      institution: Goethe-Universität Frankfurt am Main
+      year: 2018 –
+      description:
+        - Mechanik · Elektrodynamik · Quantenmechanik · Spezielle Relativitätstheorie
+    - title: Elektrizitätslehre und Magnetismus für Grundschullehrkräfte
+      institution: Goethe-Universität Frankfurt am Main
+      year: 2025 –
+      description:
+        - Integrierte Lehrveranstaltung zur Physik des Elektromagnetismus und ihrer Vermittlung im Sachunterricht
 
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-atual
-      description: Um tema Jekyll bonito, simples, limpo e responsivo para acadêmicos.
-
-- title: Honrarias e Prêmios
+- title: Auszeichnungen und Stipendien
   type: time_table
   contents:
-    - year: 1921
+    - year: "Schulbildung"
       items:
-        - Prêmio Nobel de Física
-        - Medalha Matteucci
-    - year: 2029
+        - Akademisches Stipendium, Royal Grammar School Worcester
+        - Corpus Christi College Science Prize
+        - Goldene Duke of Edinburgh-Auszeichnung
+        - Charles Mytton Prize for Overall Academic Achievement
+        - Pullinger Prize for Mathematics
+        - Victoria Wright Prize for Science
+    - year: "Grundstudium"
       items:
-        - Medalha Max Planck
+        - Oxford Physics Scott Prize for Teaching and Learning in Physics
+        - "Best in College: Spoken Skills"
+    - year: "Aufbaustudium"
+      items:
+        - Stipendium der Studienstiftung des deutschen Volkes
+        - Best Student Paper Award (Koautor, 2020)
+        - British Journal of Educational Technology Fellowship (2021)
+        - IOP Teacher Training Scholarship (2024)
 
-- title: Interesses Acadêmicos
-  type: nested_list
-  contents:
-    - title: Tópico 1.
-      items:
-        - Descrição 1.
-        - Descrição 2.
-    - title: Tópico 2.
-      items:
-        - Descrição 1.
-        - Descrição 2.
-
-- title: Outros Interesses
+- title: Mitgliedschaften
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - BERA – British Educational Research Association
+    - DPG – Deutsche Physikalische Gesellschaft
+    - GDCP – Gesellschaft für Didaktik der Chemie und Physik
+    - ISLS – International Society for the Learning Sciences
+    - ESERA – European Science Education Research Association
+
+- title: Computerkenntnisse
+  type: list
+  contents:
+    - "Grundkenntnisse: Matlab, C++, Front-End-Entwicklung"
+    - "Fortgeschritten: LaTeX, C"
+    - "Sehr gute Kenntnisse: R, Python, JavaScript"
+
+- title: Wissenschaftliche Interessen
+  type: nested_list
+  contents:
+    - title: Physik- und Naturwissenschaftsdidaktik
+      items:
+        - Konzeptwandel und diagnostische Erfassung von Schülervorstellungen
+        - Digitale Unterstützung und kollaborative Lernumgebungen
+        - Sprach- und kulturvergleichende Studien in der naturwissenschaftlichen Bildung
+
+- title: Weitere Interessen
+  type: list
+  contents:
+    - "Hobbys: Wandern und Sprachenlernen"

@@ -2,100 +2,145 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Thomas Sean Weatherby
     - name: Languages
-      value: English, German
+      value: English (native), German (C1+), Japanese (~JLPT N4), French (basic)
+    - name: Email
+      value: weatherby@physik.uni-frankfurt.de
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Doctorate in Natural Philosophy (Physics Education)
+      institution: Goethe-Universität Frankfurt am Main
+      year: 2018 – 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Department for Physics Education under Prof. Dr. Thomas Wilhelm
+        - "Project title: “Talking Circuits – The Development and Assessment of a Digitally-Scaffolded, Oracy-Based Method for Teaching and Learning Electrical Circuits in Early Secondary Schools”"
+    - title: PGCE with Post-16 Enhancement (Physics)
+      institution: University of York, United Kingdom
+      year: 2024 – 2025
+    - title: Master of Physics (Applied and Engineering Physics)
+      institution: Technische Universität München, Germany
+      year: 2016 – 2018
       description:
-        - Description 1.
-        - Description 2.
+        - "Thesis at LMU München: “Reaction Nanoscopy – Near-Field-Induced Dissociative Ionisation from Nanoparticles in Solution” (Supervisor: Prof. Dr. M. Kling)"
+    - title: Bachelor of Physics
+      institution: University of Oxford, United Kingdom
+      year: 2012 – 2015
+      description:
+        - "Tutors: Prof. Dr. H. Kraus (Relativity and Particle Physics), Prof. Dr. M. Johnston (Atomic, Molecular, Laser and Condensed Matter Physics)"
+        - "Education project: “An Examination of Misconceptions Regarding Electrical Circuits with a Focus on Models of Current” (Supervisor: Dr. J. Hillier)"
+        - "Physics project: “Pulse Width Characterisation at the Vulcan Laser Facility” (Supervisor: Dr. A. Dyson)"
+    - title: A Levels (Physics, Mathematics, Chemistry, Further Mathematics)
+      institution: Royal Grammar School, Worcester
+      year: 2010 – 2012
+    - title: GCSEs
+      institution: Royal Grammar School, Worcester
+      year: 2008 – 2010
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Researcher (Physics Education)
+      institution: Goethe-Universität Frankfurt am Main
+      year: 2025 – 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Research on digital and collaborative learning in physics education
+        - Teaching seminars and practical courses for teacher education
+    - title: Graduate Researcher (Physics Education)
+      institution: Goethe-Universität Frankfurt am Main
+      year: 2018 – 2024
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: E-Learning Assistant
+      institution: Ludwig-Maximilians-Universität München
+      year: 2017 – 2018
+    - title: Working Student
+      institution: OHB Systems, Weßling
+      year: 2016 – 2017
+    - title: Library Assistant
+      institution: Technische Universität München
+      year: 2016
+    - title: Library Assistant
+      institution: Corpus Christi College, University of Oxford
+      year: 2014 – 2015
+    - title: Junior Consultant
+      institution: TNG Technology Consultants, München
+      year: Summer 2014
+    - title: Project Leader and English Teacher
+      institution: Hosei University Tokyo / University College Oxford Summer School
+      year: Summer 2013
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching and Supervision
   type: time_table
   contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023-now
-      description: A fork of al-folio theme with support for multiple languages.
-
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Practical Courses for Teacher Education
+      institution: Goethe-Universität Frankfurt am Main
+      year: 2018 – 2024
+      description:
+        - Mechanics and Thermodynamics
+        - Electricity and Magnetism
+        - Optics
+    - title: Theoretical Physics for Grammar School Teachers
+      institution: Goethe-Universität Frankfurt am Main
+      year: 2018 –
+      description:
+        - Mechanics · Electrodynamics · Quantum Mechanics · Special Relativity
+    - title: Electromagnetism for Primary School Teachers
+      institution: Goethe-Universität Frankfurt am Main
+      year: 2025 –
+      description:
+        - Integrated course on electromangetism and how to teach it in primary schools.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: "Secondary School"
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Academic Scholarship, Royal Grammar School Worcester
+        - Corpus Christi College Science Prize
+        - Gold Duke of Edinburgh Award
+        - Charles Mytton Prize for Overall Academic Achievement
+        - Pullinger Prize for Mathematics
+        - Victoria Wright Prize for Science
+    - year: "Undergraduate Education"
       items:
-        - Max Planck Medal
+        - Oxford Physics Scott Prize for Teaching and Learning in Physics
+        - "Best in College: Spoken Skills"
+    - year: "Graduate Education"
+      items:
+        - Scholarship of the Studienstiftung des deutschen Volkes
+        - Best Student Paper Award (Co-Author, 2020)
+        - British Journal of Educational Technology Fellowship (2021)
+        - IOP Teacher Training Scholarship (2024)
+
+- title: Memberships
+  type: list
+  contents:
+    - BERA – British Educational Research Association
+    - DPG – German Physical Society
+    - GDCP – Gesellschaft für Didaktik der Chemie und Physik
+    - ISLS – International Society for the Learning Sciences
+    - ESERA – European Science Education Research Association
+
+- title: Computer Skills
+  type: list
+  contents:
+    - "Basic: Matlab, C++, Front-End Development"
+    - "Intermediate: LaTeX, C"
+    - "Advanced: R, Python, JavaScript"
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Science Education Research
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Conceptual change and diagnostic assessment
+        - Digital scaffolding and collaborative learning environments
+        - Cross linguistic and cross-cultural studies in science education
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Hobbies: Hiking & Language Learning."

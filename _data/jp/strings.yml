@@ -1,164 +1,163 @@
 archive:
-  prefix: une archive de
-  category_suffix: dans cette catégorie
-  tag_suffix: avec ce tag
-  year_suffix: de cette année
+  prefix: アーカイブ：
+  category_suffix: このカテゴリの
+  tag_suffix: このタグの
+  year_suffix: この年の
 bibliography:
-  abstract: résumé
-  awarded: prix
-  blog: blogue
-  book_prefix: dans
-  code: code
-  last_author_prefix: et
-  poster: affiche
-  slides: diapos
-  supp: supp
-  video: vidéo
-  website: site web
+  abstract: 要約
+  awarded: 受賞
+  blog: ブログ
+  book_prefix: にて
+  code: コード
+  last_author_prefix: と
+  poster: ポスター
+  slides: スライド
+  supp: 補足
+  video: ビデオ
+  website: ウェブサイト
 blog:
-  navigation_title: blogue
+  navigation_title: ブログ
 categories:
-  fun: extra
-  work: travail
+  fun: 趣味
+  work: 仕事
 citation:
-  bibtex: "ou comme entrée BibTeX:"
-  introduction: "Si vous avez trouvé cela utile, veuillez le citer comme suit:"
+  bibtex: "または BibTeX 形式で引用："
+  introduction: "この内容が参考になった場合は、次のように引用してください："
 collections:
-  books: livres
-  posts: articles
-contact_note: Vous pouvez même ajouter une petite note indiquant lequel de ces moyens est le meilleur pour vous joindre.
+  books: 書籍
+  posts: 投稿
+contact_note: ご連絡はメールが最も確実です。
 cv:
-  address: adresse
-  area: région
-  awarder: récipient(e)
-  awards: prixs
-  basics: informations générales
-  certificates: certificats
-  city: ville
-  countryCode: paysCode
-  courses: cours
-  date: date
-  education: éducation
-  email: courriel
-  endDate: date de fin
-  fluency: maîtrise
-  highlights: points clés
-  image: image
-  institution: institution
-  interests: intérêts
-  issuer: émetteur
-  keywords: mots-clés
-  label: poste
-  language: langue
-  languages: langues
-  level: niveau
-  location: emplacement
-  name: nom
-  network: réseau
-  organization: organisation
-  phone: téléphone
-  position: poste
-  postalCode: code postal
-  present: Présent
-  profiles: profils
-  projects: projets
-  publications: publications
-  publisher: éditeur
-  reference: référence
-  references: références
-  region: région
-  releaseDate: date de publication
-  score: score
-  skills: compétences
-  startDate: date de début
-  studyType: "domaine d'études"
-  summary: résumé
-  table_of_contents: table des matières
-  title: titre
-  url: site web
-  username: nom d'utilisateur
-  volunteer: bénévolat
-  work: travail
+  address: 住所
+  area: 分野
+  awarder: 授与者
+  awards: 受賞歴
+  basics: 基本情報
+  certificates: 証明書
+  city: 市区町村
+  countryCode: 国コード
+  courses: コース
+  date: 日付
+  education: 学歴
+  email: メール
+  endDate: 終了日
+  fluency: 習熟度
+  highlights: ハイライト
+  image: 画像
+  institution: 機関
+  interests: 関心分野
+  issuer: 発行者
+  keywords: キーワード
+  label: ラベル
+  language: 言語
+  languages: 言語
+  level: レベル
+  location: 所在地
+  name: 氏名
+  network: ネットワーク
+  organization: 組織
+  phone: 電話番号
+  position: 職位
+  postalCode: 郵便番号
+  present: 現在
+  profiles: プロフィール
+  projects: プロジェクト
+  publications: 論文・出版物
+  publisher: 出版社
+  reference: 参照
+  references: 参考文献
+  region: 地域
+  releaseDate: 公開日
+  score: スコア
+  skills: スキル
+  startDate: 開始日
+  studyType: 専攻分野
+  summary: 概要
+  table_of_contents: 目次
+  title: タイトル
+  url: URL
+  username: ユーザー名
+  volunteer: ボランティア
+  work: 職務経験
 footer:
-  copyright: "Droits d'auteur"
-  last_updated: "Dernière mise à jour le "
-footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Propulsé par <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> avec le thème <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
-  Hébergé par <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos de <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-latest_posts: derniers articles
+  copyright: 著作権
+  last_updated: "最終更新："
+footer_text: > # 「>」は次の行まで改行を無視することを意味します
+  <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> と <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> テーマを使用して構築。
+  <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> にてホスティング。
+latest_posts: 最新の投稿
 months:
   long:
-    january: janvier
-    february: février
-    march: mars
-    april: avril
-    may: mai
-    june: juin
-    july: juillet
-    august: août
-    september: septembre
-    october: octobre
-    november: novembre
-    december: décembre
+    january: 1月
+    february: 2月
+    march: 3月
+    april: 4月
+    may: 5月
+    june: 6月
+    july: 7月
+    august: 8月
+    september: 9月
+    october: 10月
+    november: 11月
+    december: 12月
   short:
-    january: jan
-    february: fév
-    march: mar
-    april: avr
-    may: mai
-    june: jun
-    july: jul
-    august: aoû
-    september: sep
-    october: oct
-    november: nov
-    december: déc
-news: actualités
+    january: 1月
+    february: 2月
+    march: 3月
+    april: 4月
+    may: 5月
+    june: 6月
+    july: 7月
+    august: 8月
+    september: 9月
+    october: 10月
+    november: 11月
+    december: 12月
+news: ニュース
 newsletter:
-  back: retour
-  error: "Oups ! Quelque chose s'est mal passé, veuillez réessayer."
-  subscribe: "s'abonner"
-  subscribed: "Vous vous êtes abonné(e) à la newsletter avec succès."
-  subscribe_to_receive: "Abonnez-vous pour être informé(e) des prochains articles:"
-  too_many_signups: "Trop d'inscriptions, veuillez réessayer plus tard."
-  wait: "Veuillez patienter..."
-no_news: "Aucune actualité pour l'instant..."
-no_posts: "Aucun article pour le moment..."
+  back: 戻る
+  error: "エラーが発生しました。もう一度お試しください。"
+  subscribe: 購読する
+  subscribed: "ニュースレターを購読しました。"
+  subscribe_to_receive: "今後の記事を受け取るには購読してください："
+  too_many_signups: "登録が多すぎます。しばらくしてから再試行してください。"
+  wait: "お待ちください..."
+no_news: 現在ニュースはありません...
+no_posts: 投稿はまだありません...
 pagination:
-  page: page
+  page: ページ
 post:
-  created_in: Créé le
-  created_by: par
-  last_updated: "Dernière mise à jour le "
-references: références
+  created_in: 作成日
+  created_by: 作成者
+  last_updated: 最終更新日
+references: 参考文献
 related_posts:
-  description: "Voici d'autres articles que vous pourriez aimer lire ensuite :"
-  title: "Vous avez aimé lire cet article ?"
+  description: "こちらもおすすめの記事です："
+  title: "この記事が気に入りましたか？"
 search:
   dark_theme:
-    description: changer le thème du site en sombre
-    title: changer le thème en sombre
-  dropdown: déroulant
-  email: envoyer un courriel
+    description: サイトのテーマをダークモードに変更
+    title: ダークテーマに変更
+  dropdown: ドロップダウン
+  email: メールを送信
   footer:
-    close: fermer
-    navigate: naviguer
-    parent: revenir au parent
-    select: sélectionner
-  languages: langues
+    close: 閉じる
+    navigate: 移動
+    parent: 親階層に戻る
+    select: 選択
+  languages: 言語
   light_theme:
-    description: changer le thème du site en clair
-    title: changer le thème en clair
-  navigation: menu de navigation
-  news: actualités
-  placeholder: Tapez pour commencer la recherche
-  posts: articles
-  projects: projets
-  socials: réseaux sociaux
+    description: サイトのテーマをライトモードに変更
+    title: ライトテーマに変更
+  navigation: ナビゲーションメニュー
+  news: ニュース
+  placeholder: 検索語を入力してください
+  posts: 投稿
+  projects: プロジェクト
+  socials: ソーシャルリンク
   system_theme:
-    description: changer le thème du site selon le système par défaut
-    title: utiliser le thème par défaut du système
-  theme: thème
-selected_publications: publications sélectionnées
-site_description: Un thème simple et épuré pour les académiques. Basé sur le design de [*folio](https://github.com/bogoli/-folio).
+    description: システムのデフォルトテーマを使用
+    title: システム標準テーマを使用
+  theme: テーマ
+selected_publications: 代表的な出版物
+site_description: 研究者のためのシンプルで洗練されたテーマ。[＊folio](https://github.com/bogoli/-folio) のデザインを基にしています。

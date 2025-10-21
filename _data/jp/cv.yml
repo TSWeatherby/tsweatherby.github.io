@@ -1,101 +1,152 @@
-- title: Information Générales
+- title: 基本情報
   type: map
   contents:
-    - name: Nom complet
-      value: Albert Einstein
-    - name: Date de naissance
-      value: 14 mars 1879
-    - name: Langues
-      value: Anglais, Allemand
+    - name: 氏名
+      value: トマス・ショーン・ウェザビー（Thomas Sean Weatherby）
+    - name: 使用言語
+      value: 英語（母語）、ドイツ語（C1+）、日本語（JLPT N4 程度）、フランス語（基礎）
+    - name: メール
+      value: weatherby@physik.uni-frankfurt.de
 
-- title: Éducation
+
+- title: 学歴
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: 博士課程（自然哲学・物理教育）
+      institution: フランクフルト大学（Goethe-Universität Frankfurt am Main）
+      year: 2018 – 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sous-description 1.
-            - Sous-description 2.
-    - title: Brevet fédéral d'enseignement
-      institution: Eidgenössische Technische Hochschule, Zurich, Suisse
-      year: 1900
+        - 物理教育学科、トーマス・ヴィルヘルム教授の指導のもと
+        - "博士論文題目：「Talking Circuits — 中学校初期段階における電気回路の学習を目的とした、発話重視・デジタル支援型教授法の開発と評価」"
+    - title: 修士課程教員資格（PGCE, Post-16 物理特化）
+      institution: ヨーク大学（University of York, 英国）
+      year: 2024 – 2025
+    - title: 修士（応用・工学物理学）
+      institution: ミュンヘン工科大学（Technische Universität München, ドイツ）
+      year: 2016 – 2018
       description:
-        - Description 1.
-        - Description 2.
+        - "ミュンヘン大学（LMU）での修士論文：「Reaction Nanoscopy — ナノ粒子溶液における近接場誘起解離イオン化」（指導教員：M. クリング教授）"
+    - title: 学士（物理学）
+      institution: オックスフォード大学（University of Oxford, 英国）
+      year: 2012 – 2015
+      description:
+        - "指導教員：H. クラウス教授（相対論・素粒子物理）、M. ジョンストン教授（原子・分子・レーザー・凝縮系物理）"
+        - "教育研究：「電流モデルに基づく電気回路に関する誤概念の分析」（指導教員：J. ヒリアー博士）"
+        - "物理研究：「バルカンレーザー施設におけるパルス幅特性の測定」（指導教員：A. ダイソン博士）"
+    - title: Aレベル（物理・数学・化学・応用数学）
+      institution: ロイヤル・グラマー・スクール（英国ウスター）
+      year: 2010 – 2012
+    - title: GCSE
+      institution: ロイヤル・グラマー・スクール（英国ウスター）
+      year: 2008 – 2010
 
-- title: Expérience
+
+- title: 職歴
   type: time_table
   contents:
-    - title: Professeur de physique théorique
-      institution: Institut d'études avancées, Université de Princeton
-      year: 1933 - 1955
+    - title: 物理教育学 ポスドク研究員
+      institution: フランクフルト大学（Goethe-Universität Frankfurt am Main）
+      year: 2025 –
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sous-description 1.
-            - Sous-description 2.
-    - title: Professeur invité
-      institution: Institut de technologie de Californie, Pasadena, Californie, États-Unis
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - 物理教育におけるデジタル支援と協働学習の研究
+        - 教員養成課程の演習・実験授業を担当
+    - title: 物理教育学 博士研究員
+      institution: フランクフルト大学（Goethe-Universität Frankfurt am Main）
+      year: 2018 – 2024
+    - title: Eラーニング・アシスタント
+      institution: ミュンヘン大学（Ludwig-Maximilians-Universität München）
+      year: 2017 – 2018
+    - title: ワーキングスチューデント（実務学生）
+      institution: OHBシステムズ社（ヴェスリング）
+      year: 2016 – 2017
+    - title: 図書館アシスタント
+      institution: ミュンヘン工科大学（TUM）
+      year: 2016
+    - title: 図書館アシスタント
+      institution: オックスフォード大学 コーパス・クリスティ・カレッジ
+      year: 2014 – 2015
+    - title: ジュニア・コンサルタント
+      institution: TNGテクノロジー・コンサルタンツ（ミュンヘン）
+      year: 2014年夏
+    - title: プロジェクトリーダー兼英語講師
+      institution: 法政大学／オックスフォード大学サマースクール
+      year: 2013年夏
 
-    - title: Directeur
-      institution: Institut Kaiser Wilhelm de physique, Berlin, Allemagne.
-      year: 1917-1933
 
-    - title: Professeur de physique théorique
-      institution: Université Karl-Ferdinand, Prague, Tchécoslovaquie
-      year: 1911 - 1917
-      description:
-
-    - title: Professeur associé de physique théorique
-      institution: Université de Zurich, Zurich, Suisse
-      year: 1909 - 1911
-
-- title: Projets Open Source
+- title: 教育・指導経験
   type: time_table
   contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023-présent
-      description: Un fork du thème al-folio avec prise en charge de plusieurs langues.
+    - title: 教員養成課程 実験実習
+      institution: フランクフルト大学（Goethe-Universität Frankfurt am Main）
+      year: 2018 – 2024
+      description:
+        - 力学・熱力学
+        - 電気・磁気
+        - 光学
+    - title: 教員向け理論物理学セミナー（ギムナジウム教員対象）
+      institution: フランクフルト大学（Goethe-Universität Frankfurt am Main）
+      year: 2018 –
+      description:
+        - 力学 · 電磁気学 · 量子力学 · 特殊相対性理論
+    - title: 小学校教員のための電磁気学
+      institution: フランクフルト大学（Goethe-Universität Frankfurt am Main）
+      year: 2025 –
+      description:
+        - 初等教育における電磁気の基礎と教授法を統合した講義
 
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-présent
-      description: Un thème Jekyll magnifique, simple, propre et réactif pour les universitaires.
 
-- title: Prixs et Bourses
+- title: 受賞・奨学金
   type: time_table
   contents:
-    - year: 1921
+    - year: "中等教育"
       items:
-        - Prix Nobel de physique
-        - Médaille Matteucci
-    - year: 2029
+        - ロイヤル・グラマー・スクール奨学金
+        - コーパス・クリスティ・カレッジ サイエンス賞
+        - デューク・オブ・エディンバラ金賞
+        - チャールズ・マイトン賞（総合学業成績）
+        - プリンジャー数学賞
+        - ヴィクトリア・ライト理科賞
+    - year: "学部教育"
       items:
-        - Médaille Max Planck
+        - オックスフォード物理学スコット賞（教育・学習部門）
+        - "Best in College: Spoken Skills"
+    - year: "大学院教育"
+      items:
+        - ドイツ学術振興財団（Studienstiftung des deutschen Volkes）奨学金
+        - 学生最優秀論文賞（共著, 2020年）
+        - 英国教育技術学会（BJET）フェローシップ（2021年）
+        - 英国物理学会（IOP）教員養成奨学金（2024年）
 
-- title: Intérêts académiques
-  type: nested_list
-  contents:
-    - title: Sujet 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Sujet 2.
-      items:
-        - Description 1.
-        - Description 2.
 
-- title: Autres Intérêts
+- title: 学会・所属
   type: list
   contents:
-    - <u>Loisirs:</u> Loisir 1, Loisir 2, etc.
+    - BERA – 英国教育研究学会
+    - DPG – ドイツ物理学会
+    - GDCP – 化学・物理教育学会（ドイツ語圏）
+    - ISLS – 学習科学国際学会
+    - ESERA – 欧州理科教育研究学会
+
+
+- title: コンピュータスキル
+  type: list
+  contents:
+    - "基礎: Matlab, C++, フロントエンド開発"
+    - "中級: LaTeX, C"
+    - "上級: R, Python, JavaScript"
+
+
+- title: 研究関心
+  type: nested_list
+  contents:
+    - title: 理科・物理教育研究
+      items:
+        - 関する概念変容と診断的評価
+        - 協働学習とデジタル支援の教授法開発
+        - 言語・文化を越えた理科教育の比較研究
+
+
+- title: その他の関心
+  type: list
+  contents:
+    - "趣味：ハイキング、語学学習"

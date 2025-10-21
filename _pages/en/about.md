@@ -10,7 +10,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Goethe Universiy Frankfurt</p>
+    <p>Goethe University Frankfurt</p>
     <p>Institute for Physics Education</p>
     <p> Max-Von-Laue-Straße 1 </p>
     <p>60438 Frankfurt</p>
