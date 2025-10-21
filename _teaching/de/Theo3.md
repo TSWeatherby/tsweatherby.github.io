@@ -5,7 +5,7 @@ title: Theoretical Physics for Grammar School Teachers 3
 description: Companion workshop for the Theotretical Physics 3 lecture cycle.
 img: assets/img/QM.svg
 importance: 1
-category: Undergraduate
+category: Lehrerbildung
 related_publications: false
 ---
 

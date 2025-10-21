@@ -3,7 +3,11 @@ page_id: about
 layout: about
 title: About
 permalink: /
-subtitle: Physics Education Research, Educational Technology, Assessment and Collaborative Learning. 
+subtitle: >
+  <span class="badge badge-info">Physics Education Research</span>
+  <span class="badge badge-info">Educational Technology</span>
+  <span class="badge badge-info">Assessment</span>
+  <span class="badge badge-info">Collaborative Learning</span>
 
 profile:
   align: right

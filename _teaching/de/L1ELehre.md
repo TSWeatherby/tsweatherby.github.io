@@ -5,7 +5,7 @@ title: Electromagnetism for Primary School Teachers
 description: Integrated content and pedagogy of electromagnetism for primary school.
 img: assets/img/magnet.svg
 importance: 1
-category: Undergraduate
+category: Lehrerbildung
 related_publications: false
 ---
 

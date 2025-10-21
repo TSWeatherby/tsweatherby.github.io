@@ -75,28 +75,48 @@
 - title: Teaching and Supervision
   type: time_table
   contents:
-    - title: Practical Courses for Teacher Education
+    - title: Physics Practical Courses for Teacher Education (Laboratory Courses 1, 2 & 3)
       institution: Goethe-Universität Frankfurt am Main
       year: 2018 – 2024
       description:
         - Mechanics and Thermodynamics
         - Electricity and Magnetism
         - Optics
-    - title: Theoretical Physics for Grammar School Teachers
+    - title: Theoretical Physics for Grammar School Teachers (Theoretical Physics 1, 2 & 3)
       institution: Goethe-Universität Frankfurt am Main
       year: 2018 –
       description:
-        - Mechanics · Electrodynamics · Quantum Mechanics · Special Relativity
+        - Mechanics
+        - Electrodynamics
+        - Quantum Mechanics & Special Relativity
     - title: Electromagnetism for Primary School Teachers
       institution: Goethe-Universität Frankfurt am Main
       year: 2025 –
       description:
         - Integrated course on electromangetism and how to teach it in primary schools.
+    - title: Supervision of Graduate Theses
+      institution: Goethe-Universität Frankfurt am Main
+      year: 2018 – 
+      description:
+        - A study on the understanding of simple electrical circuits in secondary schools in Germany and Turkey (Raziye Fischer)
+        - Development and evaluation of a learning sequence for simple electrical circuits in distance learning (Baris Ackos)
 
-- title: Honors and Awards
+- title: Honours and Awards
   type: time_table
   contents:
-    - year: "Secondary School"
+    - year: "Research"
+      items:
+        - Best Student Paper Award CSEDU (Co-Author, 2020)
+        - British Journal of Educational Technology Fellowship (2021)
+    - year: "Postgraduate"
+      items:
+        - Scholarship of the Studienstiftung des deutschen Volkes
+        - IOP Teacher Training Scholarship (2024)
+    - year: "Undergraduate"
+      items:
+        - Oxford Physics Scott Prize for Teaching and Learning in Physics
+        - "Best in College: Spoken Skills"
+    - year: "Secondary"
       items:
         - Academic Scholarship, Royal Grammar School Worcester
         - Corpus Christi College Science Prize
@@ -104,16 +124,6 @@
         - Charles Mytton Prize for Overall Academic Achievement
         - Pullinger Prize for Mathematics
         - Victoria Wright Prize for Science
-    - year: "Undergraduate Education"
-      items:
-        - Oxford Physics Scott Prize for Teaching and Learning in Physics
-        - "Best in College: Spoken Skills"
-    - year: "Graduate Education"
-      items:
-        - Scholarship of the Studienstiftung des deutschen Volkes
-        - Best Student Paper Award (Co-Author, 2020)
-        - British Journal of Educational Technology Fellowship (2021)
-        - IOP Teacher Training Scholarship (2024)
 
 - title: Memberships
   type: list
@@ -138,7 +148,7 @@
       items:
         - Conceptual change and diagnostic assessment
         - Digital scaffolding and collaborative learning environments
-        - Cross linguistic and cross-cultural studies in science education
+        - Cross-linguistic and cross-cultural studies in science education
 
 - title: Other Interests
   type: list
