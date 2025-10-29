@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-16">
+        <title>Circuit Simulation</title>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <style type="text/css">
+            body{
+                margin: 0;
+            }
+            
+            
+        </style>
+    </head>
+    <body onLoad=initialise()>
+        <font style="padding-right: 150px" size="32">
+            Circuit Simulation
+        </font>
+        <select id="lang_input" onchange="location = this.value;">
+            <option value="simulation_en.html">English</option>
+            <option value="simulation_de.html">Deutsch</option>
+       </select>
+       <div style="position: relative;">
+        <canvas id="canvas" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+        <canvas id="canvas_2" style="position: absolute; left: 0; top: 0; z-index: -1;"></canvas>
+        </div>
+        <div class="pure-g" style="position: fixed; bottom: 0; width: 100%;">
+            <div class="pure-u-1-3">
+                <p style="padding-left: 2%; padding-right: 2%; margin: 0px; text-align: center;"> No. of Parallel Wires</p>
+                <div style="width: 100%;">
+                    <div style="width: 20%; display: inline-block; padding-left: 5%; padding-right: 5%;"><input type="radio" name="NoWires" id="NoWires1" checked="checked"/> 1 </div>
+                    <div style="width: 20%; display: inline-block; padding-left: 5%; padding-right: 5%;"><input type="radio" name="NoWires" id="NoWires2" /> 2 </div>
+                    <div style="width: 20%; display: inline-block; padding-left: 5%; padding-right: 5%;"><input type="radio" name="NoWires" id="NoWires3" /> 3 </div>
+                </div>
+                <p style="padding-left: 2%; padding-right: 2%; margin: 0px; text-align: center;"> Voltage Source</p>
+                <div class="slidecontainer" style="padding-left: 2%; margin: 0px">
+                    <input type="range" min="4.5" max="12" value="4.5" step="1.5" class="slider" style="padding: 0%; margin: 0px" id="voltages">
+                </div>
+            </div>
+            <div class="pure-u-1-3">
+                <p style="padding: 1.75%; margin: 0px; text-align: center;"> Choose Visualisation</p>
+                <p style="padding: 2px; margin: 0px">
+                    <input type="radio" name="SimType" id="SimTypeColour" checked="checked"/> Colour
+                    <button style="width:60%; display: none;" onclick="onRBClick()" id="RotBlau">Red-White-Blue</button><button style="width:60%;" onclick="onBRClick()" id="BlauRot">Blue-White-Red</button>
+                  <p style="padding: 2px; margin: 0px">
+                    <input type="radio" name="SimType" id="SimTypeHeight" /> Height 
+                    <button style="width:60%; display: none;" onclick="onNegHigh()" id="NegHigh">Negative High</button><button style="width:60%;" onclick="onPosHigh()" id="PosHigh">Positive High</button>
+            </div>
+            <div class="pure-u-1-3">
+                <button style="width:50%" id="startAnimation">Start</button><button style="width:50%" id="stopAnimation">Stop</button>
+                <button style="width:100%; display: none;" onclick="onNegPosClick()" id="NegPos">-V→+V</button><button style="width:100%;" onclick="onZeroPosClick()" id="ZeroPos">0→V</button>
+                <button id="tech" style="width:100%;" onclick="onTechClick()">Change Current Direction</button><button id="phys" onclick="onPhysClick()" style="width:100%; display:none">Change Current Direction</button>
+                <button id="slow" style="width:100%;" onclick="onSlow()">Change Timescale (Colour)</button><button id="fast" onclick="onFast()" style="width:100%; display:none">Change Timescale (Colour)</button>
+            </div>
+        </div>
+        
+        
+        
+        <script src="canvas.js">
+        </script>
+    </body>
+</html>
