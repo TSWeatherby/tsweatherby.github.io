@@ -50,7 +50,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Courses, labs, and outreach activities.",
+          description: "Undergraduate, School Resources and Simulations.",
           section: "ナビゲーションメニュー",
           handler: () => {
             window.location.href = "/jp/teaching/";
@@ -75,19 +75,19 @@ ninja.data = [{
           description: "Integrated content and pedagogy of electromagnetism for primary school.",
           section: "",handler: () => {
               window.location.href = "/jp/teaching/en/L1ELehre.html";
-            },},{id: "teaching-theoretical-physics-for-grammar-school-teachers-1",
-          title: 'Theoretical Physics for Grammar School Teachers 1',
-          description: "Companion workshop for the Theotretical Physics 1 lecture cycle.",
+            },},{id: "teaching-theoretical-physics-for-a-level-teachers-1",
+          title: 'Theoretical Physics for A-Level Teachers 1',
+          description: "Companion workshop on Newtonian and Lagrangian Mechanics.",
           section: "",handler: () => {
               window.location.href = "/jp/teaching/en/Theo1.html";
-            },},{id: "teaching-theoretical-physics-for-grammar-school-teachers-2",
-          title: 'Theoretical Physics for Grammar School Teachers 2',
-          description: "Companion workshop for the Theotretical Physics 2 lecture cycle.",
+            },},{id: "teaching-theoretical-physics-for-a-level-teachers-2",
+          title: 'Theoretical Physics for A-Level Teachers 2',
+          description: "Companion workshop on Electrodynamics.",
           section: "",handler: () => {
               window.location.href = "/jp/teaching/en/Theo2.html";
-            },},{id: "teaching-theoretical-physics-for-grammar-school-teachers-3",
-          title: 'Theoretical Physics for Grammar School Teachers 3',
-          description: "Companion workshop for the Theotretical Physics 3 lecture cycle.",
+            },},{id: "teaching-theoretical-physics-for-a-level-teachers-3",
+          title: 'Theoretical Physics for A-Level Teachers 3',
+          description: "Companion workshop on Special Relativity and Quantum Mechanics.",
           section: "",handler: () => {
               window.location.href = "/jp/teaching/en/Theo3.html";
             },},{
