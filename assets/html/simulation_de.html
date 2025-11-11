@@ -5,13 +5,10 @@
         <meta charset="utf-16">
         <title>Stromkreis-Simulation</title>
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
         <style type="text/css">
             body{
                 margin: 0;
             }
-            
-            
         </style>
     </head>
     <body onLoad=initialise()>
@@ -19,8 +16,8 @@
             Stromkreis-Simulation
         </font>
         <select id="lang_input" onchange="location = this.value;">
-            <option value="simulation_de.html">Deutsch</option>
-            <option value="simulation_en.html">English</option>
+            <option value="/simulation_de.html">Deutsch</option>
+            <option value="/simulation_en.html">English</option>
        </select>
        <div style="position: relative;">
         <canvas id="canvas" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
@@ -35,8 +32,8 @@
                     <div style="width: 20%; display: inline-block; padding-left: 5%; padding-right: 5%;"><input type="radio" name="NoWires" id="NoWires3" /> 3 </div>
                 </div>
                 <p style="padding-left: 2%; padding-right: 2%; margin: 0px; text-align: center;"> Spannungsquelle</p>
-                <div class="slidecontainer" style="padding-left: 2%; margin: 0px">
-                    <input type="range" min="4.5" max="12" value="4.5" step="1.5" class="slider" style="padding: 0%; margin: 0px" id="voltages">
+                <div class="slidecontainer" style="padding-left: 2%; padding-right: 2%; margin: 0px">
+                    <input type="range" min="4.5" max="12" value="4.5" step="1.5" class="slider" style="padding: 0%; margin: 0px; width: 100%;" id="voltages">
                 </div>
             </div>
             <div class="pure-u-1-3">

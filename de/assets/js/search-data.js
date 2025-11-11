@@ -62,7 +62,7 @@ ninja.data = [{
               window.location.href = "/de/projects/de/denkey.html";
             },},{id: "projects-ivoltage",
           title: 'iVoltage',
-          description: "Placeholder iVoltage Project Description",
+          description: "Platzhalter iVoltage Project",
           section: "Projekte",handler: () => {
               window.location.href = "/de/projects/de/ivoltage.html";
             },},{id: "projects-talking-circuits",
@@ -70,24 +70,24 @@ ninja.data = [{
           description: "Placeholder Talking Circuits Project Description",
           section: "Projekte",handler: () => {
               window.location.href = "/de/projects/de/talkingcircuits.html";
-            },},{id: "teaching-electromagnetism-for-primary-school-teachers",
-          title: 'Electromagnetism for Primary School Teachers',
-          description: "Integrated content and pedagogy of electromagnetism for primary school.",
+            },},{id: "teaching-elektrizität-und-magnetismus-für-die-grundschule",
+          title: 'Elektrizität und Magnetismus für die Grundschule',
+          description: "Integrierte Fach- und Didaktikinhalte zum Thema Elektromagnetismus für die Grundschule.",
           section: "",handler: () => {
               window.location.href = "/de/teaching/de/L1ELehre.html";
-            },},{id: "teaching-theoretical-physics-for-grammar-school-teachers-1",
-          title: 'Theoretical Physics for Grammar School Teachers 1',
-          description: "Companion workshop for the Theotretical Physics 1 lecture cycle.",
+            },},{id: "teaching-theoretische-physik-1-für-das-gymnasiale-lehramt",
+          title: 'Theoretische Physik 1 für das gymnasiale Lehramt',
+          description: "Begleitworkshop zur Newtonschen und Lagrange-Mechanik.",
           section: "",handler: () => {
               window.location.href = "/de/teaching/de/Theo1.html";
-            },},{id: "teaching-theoretical-physics-for-grammar-school-teachers-2",
-          title: 'Theoretical Physics for Grammar School Teachers 2',
-          description: "Companion workshop for the Theotretical Physics 2 lecture cycle.",
+            },},{id: "teaching-theoretische-physik-2-für-das-gymnasiale-lehramt",
+          title: 'Theoretische Physik 2 für das gymnasiale Lehramt',
+          description: "Begleitworkshop zur Elektrodynamik.",
           section: "",handler: () => {
               window.location.href = "/de/teaching/de/Theo2.html";
-            },},{id: "teaching-theoretical-physics-for-grammar-school-teachers-3",
-          title: 'Theoretical Physics for Grammar School Teachers 3',
-          description: "Companion workshop for the Theotretical Physics 3 lecture cycle.",
+            },},{id: "teaching-theoretische-physik-3-für-das-gymnasiale-lehramt",
+          title: 'Theoretische Physik 3 für das gymnasiale Lehramt',
+          description: "Begleitworkshop zur Spezielle Relativitätstheorie und Quantenmechanik.",
           section: "",handler: () => {
               window.location.href = "/de/teaching/de/Theo3.html";
             },},{
