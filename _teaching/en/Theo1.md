@@ -1,8 +1,8 @@
 ---
 page_id: Theo_1
 layout: page
-title: Theoretical Physics for Grammar School Teachers 1
-description: Companion workshop for the Theotretical Physics 1 lecture cycle.
+title: Theoretical Physics for A-Level Teachers 1
+description: Companion workshop on Newtonian and Lagrangian Mechanics.
 img: assets/img/lagrange.svg
 importance: 1
 category: Undergraduate

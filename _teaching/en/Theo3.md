@@ -1,8 +1,8 @@
 ---
 page_id: Theo_3
 layout: page
-title: Theoretical Physics for Grammar School Teachers 3
-description: Companion workshop for the Theotretical Physics 3 lecture cycle.
+title: Theoretical Physics for A-Level Teachers 3
+description: Companion workshop on Special Relativity and Quantum Mechanics.
 img: assets/img/QM.svg
 importance: 1
 category: Undergraduate
@@ -22,7 +22,7 @@ Across the semester we focus on three threads:
 
 Handouts appear here as soon as they are uploaded.
 
-{% assign theo3_materials = site.static_files | where_exp: "file", "file.path contains '/assets/pdf/en/Theo3/'" %}
+{% assign theo3_materials = "/assets/pdf/en/Theo3" | list_material_files %}
 {% if theo3_materials == empty %}
 No downloadable materials are available yet—check back after the next workshop.
 {% else %}

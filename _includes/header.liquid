@@ -125,6 +125,44 @@
               </button>
             </li>
           {% endif %}
+          {% comment %}
+            Prepare the current URL so language toggle links can swap inner collection folders
+            like /projects/en/* when localized versions exist.
+          {% endcomment %}
+          {% assign normalized_url = page.url %}
+          {% if site.active_lang != site.default_lang %}
+            {% assign active_prefix = '/' | append: site.active_lang | append: '/' %}
+            {% assign prefix_length = active_prefix | size %}
+            {% assign current_prefix = normalized_url | slice: 0, prefix_length %}
+            {% if current_prefix == active_prefix %}
+              {% assign normalized_url = normalized_url | replace_first: active_prefix, '/' %}
+            {% elsif normalized_url == '/' | append: site.active_lang %}
+              {% assign normalized_url = '/' %}
+            {% endif %}
+          {% endif %}
+          {% assign source_lang = '' %}
+          {% assign path_parts = page.path | split: '/' %}
+          {% if path_parts.size > 1 %}
+            {% assign possible_lang = path_parts[1] %}
+            {% if site.languages contains possible_lang %}
+              {% assign source_lang = possible_lang %}
+            {% endif %}
+          {% endif %}
+          {% assign inner_lang_segment = '' %}
+          {% if source_lang != '' %}
+            {% assign candidate_segment = '/' | append: source_lang | append: '/' %}
+            {% if normalized_url contains candidate_segment %}
+              {% assign inner_lang_segment = candidate_segment %}
+            {% endif %}
+          {% endif %}
+          {% assign source_segment = '' %}
+          {% if source_lang != '' %}
+            {% assign source_segment = '/' | append: source_lang | append: '/' %}
+          {% endif %}
+          {% assign can_swap_inner_lang = false %}
+          {% if inner_lang_segment != '' and source_segment != '' %}
+            {% assign can_swap_inner_lang = true %}
+          {% endif %}
           <!-- Toogle language -->
           {% if site.languages.size >= 2 %}
             {% if site.languages.size == 2 %}
@@ -134,8 +172,24 @@
                 {% assign other_language = site.languages.first %}
               {% endif %}
               <li class="nav-item active">
+                {% assign target_lang = other_language %}
+                {% assign resolved_url = normalized_url %}
+                {% if can_swap_inner_lang %}
+                  {% assign target_segment = '/' | append: target_lang | append: '/' %}
+                  {% capture candidate_path %}{{ page.path | replace_first: source_segment, target_segment }}{% endcapture %}
+                  {% assign candidate_path = candidate_path | strip %}
+                  {% capture translation_exists %}{% file_exists {{ candidate_path }} %}{% endcapture %}
+                  {% if translation_exists | strip == 'true' %}
+                    {% assign resolved_url = normalized_url | replace_first: inner_lang_segment, target_segment %}
+                  {% endif %}
+                {% endif %}
+                {% if target_lang == site.default_lang %}
+                  {% assign switch_url = resolved_url %}
+                {% else %}
+                  {% assign switch_url = '/' | append: target_lang | append: resolved_url %}
+                {% endif %}
                 {% if site.active_lang == site.default_lang %}
-                  <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}/{{ other_language }}{{ page.url }}" {%- endstatic_href %}>
+                  <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}{{ switch_url }}" {%- endstatic_href %}>
                     {% if site.country_flag %}
                       <span class="fi fi-{{ other_language | split: "-" | last }}"></span>
                     {% else %}
@@ -143,7 +197,19 @@
                     {%- endif -%}
                   </a>
                 {% else %}
-                  <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
+                  {% assign target_lang = site.default_lang %}
+                  {% assign resolved_url = normalized_url %}
+                  {% if can_swap_inner_lang %}
+                    {% assign target_segment = '/' | append: target_lang | append: '/' %}
+                    {% capture candidate_path %}{{ page.path | replace_first: source_segment, target_segment }}{% endcapture %}
+                    {% assign candidate_path = candidate_path | strip %}
+                    {% capture translation_exists %}{% file_exists {{ candidate_path }} %}{% endcapture %}
+                    {% if translation_exists | strip == 'true' %}
+                      {% assign resolved_url = normalized_url | replace_first: inner_lang_segment, target_segment %}
+                    {% endif %}
+                  {% endif %}
+                  {% assign switch_url = resolved_url %}
+                  <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}{{ switch_url }}" {%- endstatic_href %}>
                     {% if site.country_flag %}
                       <span class="fi fi-{{ site.default_lang | split: "-" | last }}"></span>
                     {% else %}
@@ -179,23 +245,29 @@
                       {% if language_set %}
                         <div class="dropdown-divider"></div>
                       {% endif %}
-                      {% if l == site.default_lang %}
-                        <a class="dropdown-item" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
-                          {% if site.country_flag %}
-                            <span class="fi fi-{{ l | split: "-" | last }}"></span>
-                          {% else %}
-                            {{ l | upcase }}
-                          {%- endif -%}
-                        </a>
-                      {% else %}
-                        <a class="dropdown-item" {% static_href -%} href="{{ site.baseurl }}/{{ l }}{{ page.url }}" {%- endstatic_href %}>
-                          {% if site.country_flag %}
-                            <span class="fi fi-{{ l | split: "-" | last }}"></span>
-                          {% else %}
-                            {{ l | upcase }}
-                          {%- endif -%}
-                        </a>
+                      {% assign target_lang = l %}
+                      {% assign resolved_url = normalized_url %}
+                      {% if can_swap_inner_lang %}
+                        {% assign target_segment = '/' | append: target_lang | append: '/' %}
+                        {% capture candidate_path %}{{ page.path | replace_first: source_segment, target_segment }}{% endcapture %}
+                        {% assign candidate_path = candidate_path | strip %}
+                        {% capture translation_exists %}{% file_exists {{ candidate_path }} %}{% endcapture %}
+                        {% if translation_exists | strip == 'true' %}
+                          {% assign resolved_url = normalized_url | replace_first: inner_lang_segment, target_segment %}
+                        {% endif %}
                       {% endif %}
+                      {% if target_lang == site.default_lang %}
+                        {% assign switch_url = resolved_url %}
+                      {% else %}
+                        {% assign switch_url = '/' | append: target_lang | append: resolved_url %}
+                      {% endif %}
+                      <a class="dropdown-item" {% static_href -%} href="{{ site.baseurl }}{{ switch_url }}" {%- endstatic_href %}>
+                        {% if site.country_flag %}
+                          <span class="fi fi-{{ l | split: "-" | last }}"></span>
+                        {% else %}
+                          {{ l | upcase }}
+                        {%- endif -%}
+                      </a>
                       {% assign language_set = true %}
                     {% endif %}
                   {% endfor %}

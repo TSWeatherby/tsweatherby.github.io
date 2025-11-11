@@ -1,8 +1,8 @@
 ---
 page_id: Theo_2
 layout: page
-title: Theoretical Physics for Grammar School Teachers 2
-description: Companion workshop for the Theotretical Physics 2 lecture cycle.
+title: Theoretical Physics for A-Level Teachers 2
+description: Companion workshop on Electrodynamics.
 img: assets/img/gauss.svg
 importance: 1
 category: Undergraduate

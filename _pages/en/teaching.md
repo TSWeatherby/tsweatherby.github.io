@@ -3,10 +3,10 @@ page_id: teaching
 layout: page
 title: Teaching
 permalink: /teaching/
-description: Courses, labs, and outreach activities.
+description: Undergraduate, School Resources and Simulations.
 nav: true
 nav_order: 6
-display_categories: [Undergraduate, School]
+display_categories: [Undergraduate, School, Simulation]
 horizontal: false
 ---
 

@@ -14,14 +14,14 @@ Dieser Begleitkurs unterstützt die Vorlesungsreihe über Spezielle Relativität
 Im Laufe des Semesters konzentrieren wir uns auf drei Themenbereiche:
 
 - die Übertragung formaler Ableitungen auf qualitative Modelle, die mit Oberstufenschülern diskutiert werden können;
-- die Erarbeitung von unterrichtsfertigen Analogien, Experimenten und Diskussionsanregungen, die Relativitäts- und Quantenkonzepte verständlich machen;
+- die Erarbeitung von unterrichtsfertigen Analogien, (Gedanken-)Experimenten und Diskussionsanregungen, die Relativitäts- und Quantenkonzepte verständlich machen;
 - die Zusammenstellung didaktischer Tipps, häufiger Probleme und Folgeaktivitäten, die Lehrer sofort in ihren Unterricht integrieren können.
 
 ### Course materials
 
 Die Materialien werden hier angezeigt, sobald sie hochgeladen wurden.
 
-{% assign theo3_materials = site.static_files | where_exp: "file", "file.path contains '/assets/pdf/en/Theo3/'" %}
+{% assign theo3_materials = "/assets/pdf/de/Theo3" | list_material_files %}
 {% if theo3_materials == empty %}
 Es sind noch keine Materialien zum Herunterladen verfügbar – schauen Sie nach dem nächsten Seminar wieder vorbei.
 {% else %}
