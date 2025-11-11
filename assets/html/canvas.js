@@ -7,8 +7,9 @@ var img = new Image();
 img.src = 'https://cdn.onlinewebfonts.com/svg/img_431207.png';
 
 var lang = document.getElementById("lang_input");
-var lang_str = lang.options[lang.selectedIndex].value;
-lang_str = lang_str.substring(11,13);
+var lang_value = lang.options[lang.selectedIndex].value;
+var lang_match = lang_value.match(/_([a-z]{2})\.html$/i);
+var lang_str = lang_match ? lang_match[1].toLowerCase() : "en";
 console.log(lang_str);
 var volt_symb = "";
 var warning="";
@@ -1564,8 +1565,9 @@ function initialise() {
     var stop_event = document.getElementById("stopAnimation");
     stop_event.addEventListener("click", onStop, false);
     canvas_2.style.zIndex = -1;
-    lang_str = lang.options[lang.selectedIndex].value;
-    lang_str = lang_str.substring(11,13);
+    var lang_value = lang.options[lang.selectedIndex].value;
+    var lang_match = lang_value.match(/_([a-z]{2})\.html$/i);
+    lang_str = lang_match ? lang_match[1].toLowerCase() : "en";
     console.log(lang_str);
 };
 
@@ -2735,5 +2737,3 @@ function makeResults(e) {
     }
     //window.alert(totalResistance);
 };
-
-

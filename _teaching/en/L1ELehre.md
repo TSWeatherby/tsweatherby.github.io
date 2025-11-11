@@ -9,13 +9,20 @@ category: Undergraduate
 related_publications: false
 ---
 
-This companion course supports the lecture series on Special Relativity and Quantum Mechanics aimed at grammar school teachers. We revisit each lecture topic with classroom-oriented explanations that bridge the university content and the expectations of A-level physics curricula.
+This course blends physics content and pedagogy to develop aspiring primary teachers' knowledge on the topics of electricity and magnetism.
+In terms of physics content, we cover:
+- Electrostatics - fundamental phenomena and principles;
+- Fields - simple representations and laws that govern electric and magnetic fields;
+- Current electricity - predicting and describing behaviour in simple circuits;
+- Magnetism - Permanent magnets, electromagnets and models we use to explain them;
+- Power generation and distribution - power plants, sources of energy and how it is transfered to our houses.
 
-Across the semester we focus on three threads:
+In terms of pedagogy and practice, we examine:
+- Weather - using electrostatic ideas to understand lightning storms and how to stay safe.
+- Making the invisible tangible - experiments and analogies to allow primary learners to experience abstract physical quantities through their senses.
+- Age/Stage-appropriate accuracy - crafting honest, accessible explainations and learning experiences that allow learners insight into the world around them.
+- Role models - introducing a wide range of historical scientists and electrical engineers, so that learners can see themselves in the scientists behind the ideas.
 
-- bringing formal derivations down to qualitative models that can be discussed with advanced secondary pupils;
-- surfacing classroom-ready analogies, experiments, and discussion prompts that demystify relativity and quantum concepts;
-- curating didactic tips, misconceptions, and follow-up activities teachers can integrate immediately.
 
 
 ### Course materials

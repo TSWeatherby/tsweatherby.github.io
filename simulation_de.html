@@ -1,4 +1,7 @@
-
+---
+layout: null
+permalink: /simulation_de.html
+---
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,8 +19,8 @@
             Stromkreis-Simulation
         </font>
         <select id="lang_input" onchange="location = this.value;">
-            <option value="/simulation_de.html">Deutsch</option>
-            <option value="/simulation_en.html">English</option>
+            <option value="{{ '/simulation_de.html' | relative_url }}" selected>Deutsch</option>
+            <option value="{{ '/simulation_en.html' | relative_url }}">English</option>
        </select>
        <div style="position: relative;">
         <canvas id="canvas" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
@@ -55,7 +58,7 @@
         
         
         
-        <script src="canvas.js">
+        <script src="{{ '/assets/html/canvas.js' | relative_url }}">
         </script>
     </body>
 </html>

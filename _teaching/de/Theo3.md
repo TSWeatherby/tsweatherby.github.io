@@ -1,30 +1,29 @@
 ---
 page_id: Theo_3
 layout: page
-title: Theoretical Physics for Grammar School Teachers 3
-description: Companion workshop for the Theotretical Physics 3 lecture cycle.
+title: Theoretische Physik 3 für das gymnasiale Lehramt
+description: Begleitworkshop zur Spezielle Relativitätstheorie und Quantenmechanik.
 img: assets/img/QM.svg
-importance: 1
+importance: 4
 category: Lehrerbildung
 related_publications: false
 ---
 
-This companion course supports the lecture series on Special Relativity and Quantum Mechanics aimed at grammar school teachers. We revisit each lecture topic with classroom-oriented explanations that bridge the university content and the expectations of A-level physics curricula.
+Dieser Begleitkurs unterstützt die Vorlesungsreihe über Spezielle Relativitätstheorie und Quantenmechanik, die sich an Gymnasiallehrer richtet. Wir greifen jedes Vorlesungsthema mit unterrichtsorientierten Erläuterungen auf, die eine Brücke zwischen den Inhalten der Universität und den Erwartungen des Physiklehrplans der Oberstufe schlagen.
 
-Across the semester we focus on three threads:
+Im Laufe des Semesters konzentrieren wir uns auf drei Themenbereiche:
 
-- bringing formal derivations down to qualitative models that can be discussed with advanced secondary pupils;
-- surfacing classroom-ready analogies, experiments, and discussion prompts that demystify relativity and quantum concepts;
-- curating didactic tips, misconceptions, and follow-up activities teachers can integrate immediately.
-
+- die Übertragung formaler Ableitungen auf qualitative Modelle, die mit Oberstufenschülern diskutiert werden können;
+- die Erarbeitung von unterrichtsfertigen Analogien, Experimenten und Diskussionsanregungen, die Relativitäts- und Quantenkonzepte verständlich machen;
+- die Zusammenstellung didaktischer Tipps, häufiger Probleme und Folgeaktivitäten, die Lehrer sofort in ihren Unterricht integrieren können.
 
 ### Course materials
 
-Handouts appear here as soon as they are uploaded.
+Die Materialien werden hier angezeigt, sobald sie hochgeladen wurden.
 
 {% assign theo3_materials = site.static_files | where_exp: "file", "file.path contains '/assets/pdf/en/Theo3/'" %}
 {% if theo3_materials == empty %}
-No downloadable materials are available yet—check back after the next workshop.
+Es sind noch keine Materialien zum Herunterladen verfügbar – schauen Sie nach dem nächsten Seminar wieder vorbei.
 {% else %}
 <ul>
   {% for resource in theo3_materials %}

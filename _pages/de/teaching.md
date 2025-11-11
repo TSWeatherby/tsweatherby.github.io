@@ -16,8 +16,8 @@ horizontal: false
     <!-- Display categorized teaching items -->
     {% for category in page.display_categories %}
       {% assign category_label = site.data[site.active_lang].strings.categories[category] | default: category %}
-      <a id="{{ category_label }}" href=".#{{ category_label }}">
-        <h2 class="category">{{ category_label }}</h2>
+      <a id="{{ site.data[site.active_lang].strings.categories[category] }}" href=".#{{ site.data[site.active_lang].strings.categories[category] }}">
+        <h2 class="category">{{ site.data[site.active_lang].strings.categories[category] }}</h2>
       </a>
       {% assign categorized_teaching = site.teaching | where: "category", category %}
       {% assign sorted_teaching = categorized_teaching | sort: "importance" %}
