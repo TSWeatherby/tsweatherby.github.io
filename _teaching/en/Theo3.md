@@ -24,7 +24,7 @@ Handouts appear here as soon as they are uploaded.
 
 {% assign theo3_materials = "/assets/pdf/en/Theo3" | list_material_files %}
 {% if theo3_materials == empty %}
-No downloadable materials are available yet—check back after the next workshop.
+No downloadable materials are available yet. Check back after the next workshop.
 {% else %}
 <ul>
   {% for resource in theo3_materials %}

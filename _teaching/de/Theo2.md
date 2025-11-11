@@ -16,12 +16,12 @@ Platzhalter
 
 Handouts appear here as soon as they are uploaded.
 
-{% assign theo2_materials = site.static_files | where_exp: "file", "file.path contains '/assets/pdf/en/Theo2/'" %}
-{% if theo2_materials == empty %}
-No downloadable materials are available yet—check back after the next workshop.
+{% assign theo3_materials = "/assets/pdf/de/Theo2" | list_material_files %}
+{% if theo3_materials == empty %}
+Es sind noch keine Materialien zum Herunterladen verfügbar – schauen Sie nach dem nächsten Seminar wieder vorbei.
 {% else %}
 <ul>
-  {% for resource in theo2_materials %}
+  {% for resource in theo3_materials %}
     <li><a href="{{ resource.path | relative_url }}">{{ resource.name }}</a></li>
   {% endfor %}
 </ul>

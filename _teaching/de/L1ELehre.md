@@ -27,12 +27,12 @@ Im Bereich Pädagogik und Praxis untersuchen wir:
 
 Die Materialien werden hier angezeigt, sobald sie hochgeladen wurden.
 
-{% assign L1E_materials = site.static_files | where_exp: "file", "file.path contains '/assets/pdf/en/L1ELehre/'" %}
-{% if L1E_materials == empty %}
-No downloadable materials are available yet—check back after the next workshop.
+{% assign materials = "/assets/pdf/de/L1ELehre" | list_material_files %}
+{% if materials == empty %}
+Es sind noch keine Materialien zum Herunterladen verfügbar – schauen Sie nach dem nächsten Seminar wieder vorbei.
 {% else %}
 <ul>
-  {% for resource in L1E_materials %}
+  {% for resource in materials %}
     <li><a href="{{ resource.path | relative_url }}">{{ resource.name }}</a></li>
   {% endfor %}
 </ul>

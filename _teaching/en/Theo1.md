@@ -22,12 +22,12 @@ Across the semester we focus on three threads:
 
 Handouts appear here as soon as they are uploaded.
 
-{% assign theo1_materials = site.static_files | where_exp: "file", "file.path contains '/assets/pdf/en/Theo1/'" %}
-{% if theo1_materials == empty %}
-No downloadable materials are available yet—check back after the next workshop.
+{% assign theo3_materials = "/assets/pdf/en/Theo1" | list_material_files %}
+{% if theo3_materials == empty %}
+No downloadable materials are available yet. Check back after the next workshop.
 {% else %}
 <ul>
-  {% for resource in theo1_materials %}
+  {% for resource in theo3_materials %}
     <li><a href="{{ resource.path | relative_url }}">{{ resource.name }}</a></li>
   {% endfor %}
 </ul>
