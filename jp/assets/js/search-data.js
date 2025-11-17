@@ -57,31 +57,26 @@ ninja.data = [{
           },
         },{id: "nav-apps",
           title: "Apps",
-          description: "My eduational applications published under the Department for Physics Education at Frankfurt University.",
+          description: "My educational applications published under the Department for Physics Education at Frankfurt University.",
           section: "ナビゲーションメニュー",
           handler: () => {
             window.location.href = "/jp/apps/";
           },
-        },{id: "apps-collsim",
-          title: 'CollSim',
-          description: "Companion workshop on Newtonian and Lagrangian Mechanics.",
-          section: "",handler: () => {
-              window.location.href = "/jp/apps/en/CollSim.html";
-            },},{id: "apps-theoretische-physik-2-für-das-gymnasiale-lehramt",
-          title: 'Theoretische Physik 2 für das gymnasiale Lehramt',
-          description: "Begleitworkshop zur Elektrodynamik.",
-          section: "",handler: () => {
-              window.location.href = "/jp/apps/de/Theo2.html";
-            },},{id: "apps-theoretical-physics-for-a-level-teachers-3",
-          title: 'Theoretical Physics for A-Level Teachers 3',
-          description: "Companion workshop on Special Relativity and Quantum Mechanics.",
-          section: "",handler: () => {
-              window.location.href = "/jp/apps/en/ModelsOfLight.html";
-            },},{id: "apps-simulation-of-electrical-properties",
+        },{id: "apps-simulation-of-electrical-properties",
           title: 'Simulation of Electrical Properties',
           description: "Simulation visualising potential in different ways",
           section: "",handler: () => {
               window.location.href = "/jp/apps/en/Circuits.html";
+            },},{id: "apps-collsim",
+          title: 'CollSim',
+          description: "2D Collision App",
+          section: "",handler: () => {
+              window.location.href = "/jp/apps/en/CollSim.html";
+            },},{id: "apps-models-of-light",
+          title: 'Models of Light',
+          description: "Light visualisations",
+          section: "",handler: () => {
+              window.location.href = "/jp/apps/en/ModelsOfLight.html";
             },},{id: "projects-denkey-concepts",
           title: 'DenKey Concepts',
           description: "Placeholder iVoltage Project Description",
@@ -102,11 +97,21 @@ ninja.data = [{
           description: "Integrated content and pedagogy of electromagnetism for primary school.",
           section: "",handler: () => {
               window.location.href = "/jp/teaching/en/L1ELehre.html";
+            },},{id: "teaching-theoretical-physics-for-a-level-teachers-1",
+          title: 'Theoretical Physics for A-Level Teachers 1',
+          description: "Companion workshop on Newtonian and Lagrangian Mechanics.",
+          section: "",handler: () => {
+              window.location.href = "/jp/teaching/en/Theo1.html";
             },},{id: "teaching-theoretical-physics-for-a-level-teachers-2",
           title: 'Theoretical Physics for A-Level Teachers 2',
           description: "Companion workshop on Electrodynamics.",
           section: "",handler: () => {
               window.location.href = "/jp/teaching/en/Theo2.html";
+            },},{id: "teaching-theoretical-physics-for-a-level-teachers-3",
+          title: 'Theoretical Physics for A-Level Teachers 3',
+          description: "Companion workshop on Special Relativity and Quantum Mechanics.",
+          section: "",handler: () => {
+              window.location.href = "/jp/teaching/en/Theo3.html";
             },},{
         id: 'social-email',
         title: 'メールを送信',

@@ -57,31 +57,26 @@ ninja.data = [{
           },
         },{id: "nav-apps",
           title: "Apps",
-          description: "My eduational applications published under the Department for Physics Education at Frankfurt University.",
+          description: "Meine Lern-Apps, veröffentlicht unter der Institut für Didaktik der Physik der Goethe-Universität Frankfurt.",
           section: "Navigationsmenü",
           handler: () => {
             window.location.href = "/de/apps/";
           },
-        },{id: "apps-theoretische-physik-1-für-das-gymnasiale-lehramt",
-          title: 'Theoretische Physik 1 für das gymnasiale Lehramt',
-          description: "Begleitworkshop zur Newtonschen und Lagrange-Mechanik.",
-          section: "",handler: () => {
-              window.location.href = "/de/apps/de/Theo1.html";
-            },},{id: "apps-theoretische-physik-2-für-das-gymnasiale-lehramt",
-          title: 'Theoretische Physik 2 für das gymnasiale Lehramt',
-          description: "Begleitworkshop zur Elektrodynamik.",
-          section: "",handler: () => {
-              window.location.href = "/de/apps/de/Theo2.html";
-            },},{id: "apps-theoretische-physik-3-für-das-gymnasiale-lehramt",
-          title: 'Theoretische Physik 3 für das gymnasiale Lehramt',
-          description: "Begleitworkshop zur Spezielle Relativitätstheorie und Quantenmechanik.",
-          section: "",handler: () => {
-              window.location.href = "/de/apps/de/Theo3.html";
-            },},{id: "apps-simulation-of-electrical-properties",
+        },{id: "apps-simulation-of-electrical-properties",
           title: 'Simulation of Electrical Properties',
           description: "Simulation visualising potential in different ways",
           section: "",handler: () => {
               window.location.href = "/de/apps/en/Circuits.html";
+            },},{id: "apps-collsim",
+          title: 'CollSim',
+          description: "2D Collision App",
+          section: "",handler: () => {
+              window.location.href = "/de/apps/en/CollSim.html";
+            },},{id: "apps-models-of-light",
+          title: 'Models of Light',
+          description: "Light visualisations",
+          section: "",handler: () => {
+              window.location.href = "/de/apps/en/ModelsOfLight.html";
             },},{id: "projects-denkey-concepts",
           title: 'DenKey Concepts',
           description: "Placeholder iVoltage Project Description",
@@ -102,6 +97,21 @@ ninja.data = [{
           description: "Integrierte Fach- und Didaktikinhalte zum Thema Elektromagnetismus für die Grundschule.",
           section: "",handler: () => {
               window.location.href = "/de/teaching/de/L1ELehre.html";
+            },},{id: "teaching-theoretische-physik-1-für-das-gymnasiale-lehramt",
+          title: 'Theoretische Physik 1 für das gymnasiale Lehramt',
+          description: "Begleitworkshop zur Newtonschen und Lagrange-Mechanik.",
+          section: "",handler: () => {
+              window.location.href = "/de/teaching/de/Theo1.html";
+            },},{id: "teaching-theoretische-physik-2-für-das-gymnasiale-lehramt",
+          title: 'Theoretische Physik 2 für das gymnasiale Lehramt',
+          description: "Begleitworkshop zur Elektrodynamik.",
+          section: "",handler: () => {
+              window.location.href = "/de/teaching/de/Theo2.html";
+            },},{id: "teaching-theoretische-physik-3-für-das-gymnasiale-lehramt",
+          title: 'Theoretische Physik 3 für das gymnasiale Lehramt',
+          description: "Begleitworkshop zur Spezielle Relativitätstheorie und Quantenmechanik.",
+          section: "",handler: () => {
+              window.location.href = "/de/teaching/de/Theo3.html";
             },},{
         id: 'social-email',
         title: 'E-Mail senden',
