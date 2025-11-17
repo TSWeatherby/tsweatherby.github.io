@@ -8,7 +8,7 @@ nav: true
 nav_order: 7
 display_categories: [Mechanics, Electricity, Optics]
 horizontal: false
-google_site_verification: g5xDY3WtR3oMpuMKp71bC3GAfJ2HrqxkHvdvpOY5hSk
+google_site_verification: 1jLkTPNYkzl9I2OKFi8GTwJt774jpSTqjc46edtCyyg
 ---
 
 <!-- pages/apps.md -->
