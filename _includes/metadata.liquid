@@ -1,10 +1,21 @@
-{% if site.enable_google_verification or site.enable_bing_verification %}
+{% assign google_verification = nil %}
+{% if page.google_site_verification %}
+  {% assign google_verification = page.google_site_verification %}
+{% elsif site.enable_google_verification and site.google_site_verification %}
+  {% assign google_verification = site.google_site_verification %}
+{% endif %}
+{% assign bing_verification = nil %}
+{% if site.enable_bing_verification and site.bing_site_verification %}
+  {% assign bing_verification = site.bing_site_verification %}
+{% endif %}
+
+{% if google_verification or bing_verification %}
   <!-- Website verification -->
-  {% if site.enable_google_verification %}
-    <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+  {% if google_verification %}
+    <meta name="google-site-verification" content="{{ google_verification }}">
   {% endif %}
-  {% if site.enable_bing_verification %}
-    <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
+  {% if bing_verification %}
+    <meta name="msvalidate.01" content="{{ bing_verification }}">
   {% endif %}
   <!--
     Avoid warning on Google Chrome Error with Permissions-Policy header:
