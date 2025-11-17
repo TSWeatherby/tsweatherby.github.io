@@ -1,8 +1,8 @@
 ---
-page_id: Theo_1
+page_id: CollSim
 layout: page
 title: CollSim
-description: Companion workshop on Newtonian and Lagrangian Mechanics.
+description: 2D Collision App
 img: assets/img/lagrange.svg
 importance: 1
 category: Mechanics

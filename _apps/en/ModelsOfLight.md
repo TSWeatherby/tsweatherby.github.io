@@ -1,8 +1,8 @@
 ---
-page_id: Theo_3
+page_id: ModelsOfLight
 layout: page
-title: Theoretical Physics for A-Level Teachers 3
-description: Companion workshop on Special Relativity and Quantum Mechanics.
+title: Models of Light
+description: Light visualisations
 img: assets/img/QM.svg
 importance: 3
 category: Optics
