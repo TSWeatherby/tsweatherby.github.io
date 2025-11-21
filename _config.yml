@@ -270,7 +270,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Weatherby]
-  first_name: [Thomas Sean]
+  first_name: [Thomas Sean, Thomas S., T. S., T., Thomas]
 
   style: apa
   locale: en
