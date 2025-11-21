@@ -84,7 +84,7 @@ ninja.data = [{
               window.location.href = "/projects/en/denkey.html";
             },},{id: "projects-ivoltage",
           title: 'iVoltage',
-          description: "Placeholder iVoltage Project Description",
+          description: "Influence of Media Use and Student Grouping on Learning Gains and Affective Indicators",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en/ivoltage.html";
             },},{id: "projects-talking-circuits",
