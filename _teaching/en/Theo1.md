@@ -9,25 +9,24 @@ category: Undergraduate
 related_publications: false
 ---
 
-This companion course supports the lecture series on Special Relativity and Quantum Mechanics aimed at grammar school teachers. We revisit each lecture topic with classroom-oriented explanations that bridge the university content and the expectations of A-level physics curricula.
-
+This companion course supports the lecture series on Theoretical Physics 1 for future grammar school teachers.
 Across the semester we focus on three threads:
 
-- bringing formal derivations down to qualitative models that can be discussed with advanced secondary pupils;
-- surfacing classroom-ready analogies, experiments, and discussion prompts that demystify relativity and quantum concepts;
-- curating didactic tips, misconceptions, and follow-up activities teachers can integrate immediately.
+- activating and clarifying prior knowledge;
+- confidently applying central tools of theoretical mechanics;
+- reflecting didactically on typical tasks, misconceptions, and models so that the content becomes useful for future upper-secondary teaching.
 
 
 ### Course materials
 
-Handouts appear here as soon as they are uploaded.
+Materials appear here as soon as they are uploaded. Please note that the downloadable materials are in German. The slide decks provided online are not complete: copyrighted material that may be used in the workshop but cannot be posted online has been removed from this website.
 
-{% assign theo3_materials = "/assets/pdf/en/Theo1" | list_material_files %}
-{% if theo3_materials == empty %}
+{% assign theo1_materials = "/assets/pdf/de/Theo1" | list_material_files %}
+{% if theo1_materials == empty %}
 No downloadable materials are available yet. Check back after the next workshop.
 {% else %}
 <ul>
-  {% for resource in theo3_materials %}
+  {% for resource in theo1_materials %}
     <li><a href="{{ resource.path | relative_url }}">{{ resource.name }}</a></li>
   {% endfor %}
 </ul>
