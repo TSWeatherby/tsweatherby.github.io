@@ -92,11 +92,21 @@ ninja.data = [{
           description: "Placeholder Talking Circuits Project Description",
           section: "プロジェクト",handler: () => {
               window.location.href = "/jp/projects/en/talkingcircuits.html";
+            },},{id: "teaching-digital-tools-in-physics-education",
+          title: 'Digital Tools in Physics Education',
+          description: "Pedagogy seminar on using computers and digital tools in physics lessons.",
+          section: "",handler: () => {
+              window.location.href = "/jp/teaching/en/Computereinsatz.html";
             },},{id: "teaching-electromagnetism-for-primary-school-teachers",
           title: 'Electromagnetism for Primary School Teachers',
           description: "Integrated content and pedagogy of electromagnetism for primary school.",
           section: "",handler: () => {
               window.location.href = "/jp/teaching/en/L1ELehre.html";
+            },},{id: "teaching-modern-physics-and-its-pedagogy",
+          title: 'Modern Physics and its Pedagogy',
+          description: "Integrated Subject and Pedagogy course on modern physics for secondary school teachers.",
+          section: "",handler: () => {
+              window.location.href = "/jp/teaching/en/ModernPhysics.html";
             },},{id: "teaching-theoretical-physics-for-a-level-teachers-1",
           title: 'Theoretical Physics for A-Level Teachers 1',
           description: "Companion workshop on Newtonian and Lagrangian Mechanics.",

@@ -92,11 +92,21 @@ ninja.data = [{
           description: "Placeholder Talking Circuits Project Description",
           section: "Projekte",handler: () => {
               window.location.href = "/de/projects/de/talkingcircuits.html";
+            },},{id: "teaching-computereinsatz-im-physikunterricht",
+          title: 'Computereinsatz im Physikunterricht',
+          description: "Fachdidaktisches Seminar zum Einsatz von Computern und digitalen Werkzeugen im Physikunterricht.",
+          section: "",handler: () => {
+              window.location.href = "/de/teaching/de/Computereinsatz.html";
             },},{id: "teaching-elektrizität-und-magnetismus-für-die-grundschule",
           title: 'Elektrizität und Magnetismus für die Grundschule',
           description: "Integrierte Fach- und Didaktikinhalte zum Thema Elektromagnetismus für die Grundschule.",
           section: "",handler: () => {
               window.location.href = "/de/teaching/de/L1ELehre.html";
+            },},{id: "teaching-fachdidaktische-vertiefung-der-modernen-physik",
+          title: 'Fachdidaktische Vertiefung der modernen Physik',
+          description: "Fachdidaktischer Kurs zur modernen Physik für das Lehramt an weiterführenden Schulen.",
+          section: "",handler: () => {
+              window.location.href = "/de/teaching/de/ModernPhysics.html";
             },},{id: "teaching-theoretische-physik-1-für-das-gymnasiale-lehramt",
           title: 'Theoretische Physik 1 für das gymnasiale Lehramt',
           description: "Begleitworkshop zur Newtonschen und Lagrange-Mechanik.",
