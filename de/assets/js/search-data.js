@@ -22,7 +22,7 @@ ninja.data = [{
     },
   },{id: "nav-veröffentlichungen",
           title: "Veröffentlichungen",
-          description: "Veröffentlichungen nach Kategorien in umgekehrter chronologischer Reihenfolge. Erstellt mit jekyll-scholar.",
+          description: "Zeitschriftenartikel, Tagungsbeiträge, Buchkapitel und Dissertation.",
           section: "Navigationsmenü",
           handler: () => {
             window.location.href = "/de/publications/";
@@ -41,8 +41,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/de/repositories/";
           },
-        },{id: "nav-cv",
-          title: "CV",
+        },{id: "nav-lebenslauf",
+          title: "Lebenslauf",
           description: "",
           section: "Navigationsmenü",
           handler: () => {
@@ -57,39 +57,34 @@ ninja.data = [{
           },
         },{id: "nav-apps",
           title: "Apps",
-          description: "Meine Lern-Apps, veröffentlicht unter der Institut für Didaktik der Physik der Goethe-Universität Frankfurt.",
+          description: "Meine Lern-Apps, veröffentlicht am Institut für Didaktik der Physik der Goethe-Universität Frankfurt am Main.",
           section: "Navigationsmenü",
           handler: () => {
             window.location.href = "/de/apps/";
           },
-        },{id: "apps-simulation-of-electrical-properties",
-          title: 'Simulation of Electrical Properties',
-          description: "Simulation visualising potential in different ways",
+        },{id: "apps-simulation-elektrischer-größen",
+          title: 'Simulation elektrischer Größen',
+          description: "Interaktive Stromkreissimulation zu Potenzial, Spannung und Stromstärke.",
           section: "",handler: () => {
-              window.location.href = "/de/apps/en/Circuits.html";
+              window.location.href = "/de/apps/de/Circuits.html";
             },},{id: "apps-collsim",
           title: 'CollSim',
-          description: "2D Collision App",
+          description: "2D-Kollisionssimulation zu Impuls und Energie.",
           section: "",handler: () => {
-              window.location.href = "/de/apps/en/CollSim.html";
-            },},{id: "apps-models-of-light",
-          title: 'Models of Light',
-          description: "Light visualisations",
-          section: "",handler: () => {
-              window.location.href = "/de/apps/en/ModelsOfLight.html";
+              window.location.href = "/de/apps/de/CollSim.html";
             },},{id: "projects-denkey-concepts",
           title: 'DenKey Concepts',
-          description: "Placeholder iVoltage Project Description",
+          description: "Work-in-progress-Projekt zu Schlüsselkonzepten und diagnostischem Verständnis in der Physikdidaktik.",
           section: "Projekte",handler: () => {
               window.location.href = "/de/projects/de/denkey.html";
             },},{id: "projects-ivoltage",
           title: 'iVoltage',
-          description: "Platzhalter iVoltage Project",
+          description: "Visualisierungen und Augmented Reality für das Lernen elektrischer Stromkreise.",
           section: "Projekte",handler: () => {
               window.location.href = "/de/projects/de/ivoltage.html";
             },},{id: "projects-talking-circuits",
           title: 'Talking Circuits',
-          description: "Placeholder Talking Circuits Project Description",
+          description: "Digital unterstütztes kollaboratives Lernen zu einfachen Stromkreisen.",
           section: "Projekte",handler: () => {
               window.location.href = "/de/projects/de/talkingcircuits.html";
             },},{id: "teaching-computereinsatz-im-physikunterricht",
