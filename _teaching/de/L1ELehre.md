@@ -23,7 +23,7 @@ Im Bereich Pädagogik und Praxis untersuchen wir:
 - Alters-/stufengerechte Richtigkeit – Erstellen ehrlicher, zugänglicher Erklärungen und Lernerfahrungen, die den Lernenden Einblicke in die Welt um sie herum ermöglichen.
 - Vorbilder – Vorstellung einer Vielzahl historischer Wissenschaftler und Elektroingenieure, damit sich die Lernenden mit den Wissenschaftlerinnen und Wissenschaftlern hinter den Ideen identifizieren können.
 
-### Course materials
+### Kursmaterialien
 
 Die Materialien werden hier angezeigt, sobald sie hochgeladen wurden.
 

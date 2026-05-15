@@ -6,7 +6,7 @@ permalink: /apps/
 description: My educational applications published under the Department for Physics Education at Frankfurt University.
 nav: true
 nav_order: 7
-display_categories: [Mechanics, Electricity, Optics, Language]
+display_categories: [Mechanics, Electricity]
 horizontal: false
 google_site_verification: 1jLkTPNYkzl9I2OKFi8GTwJt774jpSTqjc46edtCyyg
 ---

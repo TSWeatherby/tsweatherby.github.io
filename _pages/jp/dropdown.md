@@ -1,17 +1,17 @@
 ---
 id: dropdown
 layout: page
-title: Untermenüs
-nav: true
+title: サブメニュー
+nav: false
 nav_order: 8
 dropdown: true
 children:
-  - title: Veröffentlichungen
+  - title: 出版物
     permalink: /publications/
   - title: divider
-  - title: Projekte
+  - title: プロジェクト
     permalink: /projects/
   - title: divider
-  - title: Blog
+  - title: ブログ
     permalink: /blog/
 ---

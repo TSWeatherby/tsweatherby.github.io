@@ -1,7 +1,7 @@
 ---
 page_id: Theo_2
 layout: page
-title: Theoretical Physics for A-Level Teachers 2
+title: Theoretical Physics for Future Secondary Physics Teachers 2
 description: Companion workshop on Electrodynamics.
 img: assets/img/gauss.svg
 importance: 1
@@ -9,7 +9,7 @@ category: Undergraduate
 related_publications: false
 ---
 
-This companion course supports the lecture series on Special Relativity and Quantum Mechanics aimed at grammar school teachers. We revisit each lecture topic with classroom-oriented explanations that bridge the university content and the expectations of A-level physics curricula.
+This companion course supports the lecture series on Theoretical Physics 2 for future secondary physics teachers. We revisit electrodynamics with classroom-oriented explanations that bridge university content and the needs of upper-secondary physics teaching.
 
 Across the semester we focus on three threads:
 

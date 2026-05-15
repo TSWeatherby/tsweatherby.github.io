@@ -5,7 +5,7 @@ title: About
 permalink: /
 subtitle: >
   <span class="badge badge-info">Physics Education Research</span>
-  <span class="badge badge-info">Educational Technology</span>
+  <span class="badge badge-info">Digital Scaffolding</span>
   <span class="badge badge-info">Assessment</span>
   <span class="badge badge-info">Collaborative Learning</span>
 
@@ -14,11 +14,11 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Goethe University Frankfurt</p>
+    <p>Goethe University Frankfurt am Main</p>
     <p>Institute for Physics Education</p>
-    <p> Max-Von-Laue-Straße 1 </p>
-    <p>60438 Frankfurt</p>
-    <p> Germany</p>
+    <p>Max-von-Laue-Straße 1</p>
+    <p>60438 Frankfurt am Main</p>
+    <p>Germany</p>
 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -35,6 +35,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a postdoctoral researcher specialising in educational technology in science classrooms.
+I am a postdoctoral researcher in physics education at Goethe University Frankfurt am Main. My work focuses on digital tools, collaborative learning, and assessment in science education, particularly in the context of electricity teaching and teacher education.
 
-This site is currently very much a work in progess (so a lot of it is template and boilerplate), but I wanted a better way to upload some handouts for my students. So, watch this space, I guess!
+My research investigates how digital tools can scaffold classroom dialogue, conceptual understanding, and assessment in physics education. I am especially interested in digitally supporting group spoken work, developing representational competence, analogical learning in electrical circuits, and provision of integrated physics and pedagogy education for future physics teachers.

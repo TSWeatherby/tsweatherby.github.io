@@ -17,7 +17,7 @@ Im Laufe des Semesters konzentrieren wir uns auf drei Themenbereiche:
 - die Erarbeitung von unterrichtsfertigen Analogien, (Gedanken-)Experimenten und Diskussionsanregungen, die Relativitäts- und Quantenkonzepte verständlich machen;
 - die Zusammenstellung didaktischer Tipps, häufiger Probleme und Folgeaktivitäten, die Lehrer sofort in ihren Unterricht integrieren können.
 
-### Course materials
+### Kursmaterialien
 
 Die Materialien werden hier angezeigt, sobald sie hochgeladen wurden.
 

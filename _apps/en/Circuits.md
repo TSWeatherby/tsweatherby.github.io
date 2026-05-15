@@ -2,33 +2,29 @@
 page_id: Electricity_Simulation
 layout: page
 title: Simulation of Electrical Properties
-description: Simulation visualising potential in different ways
-img: assets/img/gauss.svg
+description: Interactive circuit simulation for potential, voltage, and current.
+img: assets/img/iVoltageSimCol.png
 importance: 2
 category: Electricity
-related_publications: false
+related_publications: true
 ---
 
-This companion course supports the lecture series on Special Relativity and Quantum Mechanics aimed at grammar school teachers. We revisit each lecture topic with classroom-oriented explanations that bridge the university content and the expectations of A-level physics curricula.
+<a href="{{ '/simulation_en.html' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Use this app</a>
 
-Across the semester we focus on three threads:
+This browser-based simulation supports teaching and learning about simple DC circuits by making electrical quantities visible. It represents electric potential through colour or height and current through arrows, so learners can connect circuit changes with changes in the underlying model.
 
-- bringing formal derivations down to qualitative models that can be discussed with advanced secondary pupils;
-- surfacing classroom-ready analogies, experiments, and discussion prompts that demystify relativity and quantum concepts;
-- curating didactic tips, misconceptions, and follow-up activities teachers can integrate immediately.
+### Physics concept
 
+Electric potential, voltage, current, resistance, and simple series/parallel DC circuits.
 
-### Course materials
+### Learner difficulty
 
-Handouts appear here as soon as they are uploaded.
+Learners often treat current as something that is consumed, see voltage as a property of current, or reason locally about components without considering the circuit as a connected system.
 
-{% assign theo3_materials = "/assets/pdf/en/Theo2" | list_material_files %}
-{% if theo3_materials == empty %}
-No downloadable materials are available yet. Check back after the next workshop.
-{% else %}
-<ul>
-  {% for resource in theo3_materials %}
-    <li><a href="{{ resource.path | relative_url }}">{{ resource.name }}</a></li>
-  {% endfor %}
-</ul>
-{% endif %}
+### Didactic idea
+
+The app foregrounds potential difference as the driver of current. The visualisations give learners non-numeric representations that can be discussed alongside analogies such as pressure differences and flow.
+
+### Evidence/status
+
+Research-based and classroom-oriented. The simulation is connected to published work on analogical and representation-based approaches to electricity teaching. {% cite burde2021analogical weatherby2020visualisierungen weatherby2021reprasentationsbasierte %}

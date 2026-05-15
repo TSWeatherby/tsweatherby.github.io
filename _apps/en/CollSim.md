@@ -2,33 +2,27 @@
 page_id: CollSim
 layout: page
 title: CollSim
-description: 2D Collision App
+description: 2D collision simulation for momentum and energy.
 img: assets/img/lagrange.svg
 importance: 1
 category: Mechanics
 related_publications: false
 ---
 
-This companion course supports the lecture series on Special Relativity and Quantum Mechanics aimed at grammar school teachers. We revisit each lecture topic with classroom-oriented explanations that bridge the university content and the expectations of A-level physics curricula.
+CollSim is a 2D collision visualisation for exploring how objects interact in mechanics. It is intended as a classroom-facing tool for linking motion, momentum, energy, and model assumptions.
 
-Across the semester we focus on three threads:
+### Physics concept
 
-- bringing formal derivations down to qualitative models that can be discussed with advanced secondary pupils;
-- surfacing classroom-ready analogies, experiments, and discussion prompts that demystify relativity and quantum concepts;
-- curating didactic tips, misconceptions, and follow-up activities teachers can integrate immediately.
+Two-dimensional collisions, conservation of momentum, kinetic energy, elastic and inelastic interactions, and vector decomposition.
 
+### Learner difficulty
 
-### Course materials
+Students often reason about collisions as isolated before/after events and lose sight of the vector nature of momentum. They may also conflate energy conservation with momentum conservation.
 
-Handouts appear here as soon as they are uploaded.
+### Didactic idea
 
-{% assign theo3_materials = "/assets/pdf/en/Theo1" | list_material_files %}
-{% if theo3_materials == empty %}
-No downloadable materials are available yet. Check back after the next workshop.
-{% else %}
-<ul>
-  {% for resource in theo3_materials %}
-    <li><a href="{{ resource.path | relative_url }}">{{ resource.name }}</a></li>
-  {% endfor %}
-</ul>
-{% endif %}
+The app is designed to make the geometry of a collision visible: learners can compare initial and final velocity vectors, discuss what is conserved, and test how changing mass or velocity affects the outcome.
+
+### Evidence/status
+
+Experimental teaching tool. It is suitable for demonstrations, short prediction tasks, and exploratory student work where the emphasis is on qualitative reasoning before formal calculation.

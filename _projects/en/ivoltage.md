@@ -2,9 +2,9 @@
 page_id: iVoltage
 layout: page
 title: iVoltage
-description: Influence of Media Use and Student Grouping on Learning Gains and Affective Indicators
+description: Visualisations and augmented reality for learning electric circuits.
 img: assets/img/iVoltageARVis.png
-importance: 1
+importance: 2
 category: work
 related_publications: true
 ---
@@ -52,4 +52,3 @@ Across several quasi-experimental and experimental studies in inquiry-based, uni
 A central result from iVoltage is that **“more high-tech” does not automatically mean “more effective”**. Comparative studies in undergraduate laboratory courses show that AR setups can be highly usable and engaging, but that carefully designed 2D displays and simulations often lead to **similar learning outcomes** than more complex AR environments. {% cite kapp2020effects kapp2020using weatherby2024not %} In an upcoming publication, we also examine what happens when students use AR tools alone versus in pairs.
 
 Within iVoltage, my contributions span **designing the visual representations**, **developing and deploying the simulations in university contexts**, and **planning, conducting and analysing studies**.
-

@@ -2,15 +2,11 @@
 page_id: publications
 layout: page
 permalink: /publications/
-title: Publications
-description: Journal articles, conference papers, book chapters, and doctoral thesis.
+title: 出版物
+description: 論文、会議発表、章、博士論文。
 nav: true
 nav_order: 2
 ---
-
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
 

@@ -3,18 +3,22 @@ page_id: about
 layout: about
 title: Über mich
 permalink: /
-subtitle: Physikdidaktik, Bildungstechnologie, Assessment und kollaboratives Lernen. 
+subtitle: >
+  <span class="badge badge-info">Physikdidaktik</span>
+  <span class="badge badge-info">Digitale Unterstützung</span>
+  <span class="badge badge-info">Assessment</span>
+  <span class="badge badge-info">Kollaboratives Lernen</span>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Goethe University Frankfurt</p>
-    <p>Institut für Physikdidaktik</p>
-    <p>Max-Von-Laue-Straße 1 </p>
-    <p>60438 Frankfurt</p>
-    <p>Germany</p>
+    <p>Goethe-Universität Frankfurt am Main</p>
+    <p>Institut für Didaktik der Physik</p>
+    <p>Max-von-Laue-Straße 1</p>
+    <p>60438 Frankfurt am Main</p>
+    <p>Deutschland</p>
 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -31,6 +35,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Ich bin Postdoktorand und habe mich auf Bildungstechnologie im naturwissenschaftlichen Unterricht spezialisiert.
+Ich bin Postdoktorand in der Physikdidaktik an der Goethe-Universität Frankfurt am Main. Meine Arbeit befasst sich mit digitalen Werkzeugen, kollaborativem Lernen und Assessment im naturwissenschaftlichen Unterricht, insbesondere im Kontext von Elektrizitätslehre und Lehrkräftebildung.
 
-Diese Website befindet sich derzeit noch im Aufbau (daher besteht sie größtenteils aus Vorlagen und Standardtexten), aber ich wollte eine bessere Möglichkeit finden, um Handouts für meine Studenten hochzuladen. Also, ich hoffe, Sie schauen wieder vorbei!
+Meine Forschung untersucht, wie digitale Werkzeuge Unterrichtsgespräche, konzeptuelles Verständnis und Assessment in der Physikdidaktik unterstützen können. Ein besonderer Schwerpunkt liegt auf der digitalen Unterstützung mündlicher Gruppenarbeit, der Entwicklung von Repräsentationskompetenz, analogiebasiertem Lernen zu elektrischen Stromkreisen sowie der Verbindung von fachphysikalischer und fachdidaktischer Ausbildung für angehende Physiklehrkräfte.

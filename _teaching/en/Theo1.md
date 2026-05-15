@@ -1,7 +1,7 @@
 ---
 page_id: Theo_1
 layout: page
-title: Theoretical Physics for A-Level Teachers 1
+title: Theoretical Physics for Future Secondary Physics Teachers 1
 description: Companion workshop on Newtonian and Lagrangian Mechanics.
 img: assets/img/lagrange.svg
 importance: 1
@@ -9,7 +9,7 @@ category: Undergraduate
 related_publications: false
 ---
 
-This companion course supports the lecture series on Theoretical Physics 1 for future grammar school teachers.
+This companion course supports the lecture series on Theoretical Physics 1 for future secondary physics teachers.
 Across the semester we focus on three threads:
 
 - activating and clarifying prior knowledge;

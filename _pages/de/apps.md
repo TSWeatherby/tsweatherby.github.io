@@ -3,10 +3,10 @@ page_id: apps
 layout: page
 title: Apps
 permalink: /apps/
-description: Meine Lern-Apps, veröffentlicht unter der Institut für Didaktik der Physik der Goethe-Universität Frankfurt.
+description: Meine Lern-Apps, veröffentlicht am Institut für Didaktik der Physik der Goethe-Universität Frankfurt am Main.
 nav: true
 nav_order: 7
-display_categories: [Mechanik, E-Lehre, Optik, Sprache]
+display_categories: [Mechanik, E-Lehre]
 horizontal: false
 google_site_verification: 1jLkTPNYkzl9I2OKFi8GTwJt774jpSTqjc46edtCyyg
 ---

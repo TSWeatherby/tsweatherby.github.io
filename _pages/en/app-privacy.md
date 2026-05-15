@@ -13,14 +13,14 @@ nav_order: 9
 **Privacy Policy for “Kraftstoß”**  
 Last updated: 17 November 2025
 
-This Privacy Policy applies to the Android application “Kraftstoß” (published on Google Play under the developer name “Department for Physics Education, Goethe Uni, Frankfurt am Main”). We take your privacy seriously. “Kraftstoß” is a simple educational simulation of physical processes and is designed not to collect, store, process, or share any personal data about you.
+This Privacy Policy applies to the Android application “Kraftstoß” (published on Google Play under the developer name “Institute for Physics Education, Goethe University Frankfurt am Main”). We take your privacy seriously. “Kraftstoß” is a simple educational simulation of physical processes and is designed not to collect, store, process, or share any personal data about you.
 
 ### 1. Data controller / contact
 
 The responsible party (“controller”) for “Kraftstoß” is:  
-Department for Physics Education, Goethe Uni, Frankfurt am Main  
+Institute for Physics Education, Goethe University Frankfurt am Main  
 Institut für Didaktik der Physik  
-Max-von-Laue-Str. 1  
+Max-von-Laue-Straße 1  
 60438 Frankfurt am Main  
 Germany  
 Email: weatherby@physik.uni-frankfurt.de  
@@ -86,7 +86,7 @@ Diese Datenschutzerklärung gilt für die Android-Anwendung „Kraftstoß“, di
 Verantwortlich für die Datenverarbeitung im Zusammenhang mit „Kraftstoß“ ist:  
 Institut für Didaktik der Physik, Goethe-Universität Frankfurt am Main  
 Institut für Didaktik der Physik  
-Max-von-Laue-Str. 1  
+Max-von-Laue-Straße 1  
 60438 Frankfurt am Main  
 Deutschland  
 E-Mail: weatherby@physik.uni-frankfurt.de  

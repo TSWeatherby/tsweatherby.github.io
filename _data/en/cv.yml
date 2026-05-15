@@ -33,12 +33,6 @@
         - "Tutors: Prof. Dr. H. Kraus (Relativity and Particle Physics), Prof. Dr. M. Johnston (Atomic, Molecular, Laser and Condensed Matter Physics)"
         - "Education project: “An Examination of Misconceptions Regarding Electrical Circuits with a Focus on Models of Current” (Supervisor: Dr. J. Hillier)"
         - "Physics project: “Pulse Width Characterisation at the Vulcan Laser Facility” (Supervisor: Dr. A. Dyson)"
-    - title: A Levels (Physics, Mathematics, Chemistry, Further Mathematics)
-      institution: Royal Grammar School, Worcester
-      year: 2010 – 2012
-    - title: GCSEs
-      institution: Royal Grammar School, Worcester
-      year: 2008 – 2010
 
 - title: Experience
   type: time_table
@@ -93,7 +87,7 @@
       institution: Goethe-Universität Frankfurt am Main
       year: 2025 –
       description:
-        - Integrated course on electromangetism and how to teach it in primary schools.
+        - Integrated course on electromagnetism and how to teach it in primary schools.
     - title: Supervision of Graduate Theses
       institution: Goethe-Universität Frankfurt am Main
       year: 2018 – 
@@ -116,14 +110,6 @@
       items:
         - Oxford Physics Scott Prize for Teaching and Learning in Physics
         - "Best in College: Spoken Skills"
-    - year: "Secondary"
-      items:
-        - Academic Scholarship, Royal Grammar School Worcester
-        - Corpus Christi College Science Prize
-        - Gold Duke of Edinburgh Award
-        - Charles Mytton Prize for Overall Academic Achievement
-        - Pullinger Prize for Mathematics
-        - Victoria Wright Prize for Science
 
 - title: Memberships
   type: list
