@@ -11,7 +11,7 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Dr_Thomas_Sean_Weatherby.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Goethe-Universität Frankfurt am Main</p>
